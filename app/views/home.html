@@ -1,0 +1,43 @@
+<img src="header3.jpg" />
+<div class="maincontent">
+    <h4>Our Mission</h4>
+    <p>Natural Gas Partners will generate superior risk-adjusted investment returns while forming and maintaining the highest quality industry relationships and will conduct its business according to the highest standards of honesty, integrity and fairness.</p>
+</div>
+
+            
+            
+            
+            
+            
+    <script type="text/javascript">
+    $(function(){
+        var bg = $('.vegas-background2');
+        var logo = $('#logo0');
+        // TweenLite.to(bg, 2, {left:"542px", backgroundColor:"black", borderBottomColor:"#90e500", color:"white"});
+        var intro = new TimelineLite({
+            onComplete: function(){
+                $(".vegas-background2, #logo0").remove();
+            }
+        });
+    
+        intro.to(bg,4 ,{
+          // opacity: 0,
+          scale: 2, 
+          transformOrigin:"50% 50% 0",
+          // ease: 'easeInQuart',
+          ease: 'easeInCubic',
+          // onStart: function(){
+//             $("#questions").fadeOut(1000);
+//           }
+        })
+        .to(bg,1.5,{opacity:0},'-=0.5')
+        .to(logo,1,{
+            // scale: 15, 
+            opacity:0,
+            transformOrigin:"50% 50% 0",
+            ease: 'easeOutCubic'
+        },'=1');
+    });
+    
+
+    </script>
