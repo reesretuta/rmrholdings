@@ -20,7 +20,7 @@ a {
 html {
   font-size: 1em;
   line-height: 1.4;
-  background: #f1f1f1 url("../images/template/ngp-bg.png") repeat-x; }
+  background: #f1f1f1 url("/siteBg.png") repeat-x; }
 
 body {
   font-family: 'tahoma' !important; }
@@ -87,6 +87,11 @@ body {
       #wrap #right-content .maincontent h4 {
         font-size: 30px;
         margin-bottom: 20px; }
+      #wrap #right-content .maincontent h6 {
+        font-size: 15px;
+        text-align: center; }
+      #wrap #right-content .maincontent p {
+        margin-bottom: 30px; }
   #wrap .mission-section h4 {
     text-align: center;
     font-weight: bold;
@@ -129,13 +134,9 @@ img.vegas-background2 {
   bottom: 0;
   z-index: 1; }
 
-/*
-.vegas-background{
-  position: fixed;
-  left: 0px;
-  top: -346.48125px;
-  width: 1369px;
-  height: 906.9625px;
-  bottom: auto;
-  right: auto;
-}*/
+#chart {
+  text-align: center;
+  background: #6e273d;
+  padding: 40px; }
+  #chart img {
+    margin: 0 auto; }
