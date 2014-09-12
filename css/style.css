@@ -1,139 +1,96 @@
-html,
-button,
-input,
-select,
-textarea {
-  color: #222; }
-
 a {
-  color: #fff; }
+  text-decoration: none;
+  color: #333; }
 
-@font-face {
-  font-family: 'MyriadWebProBold';
-  src: url("/fonts/myriadwebpro-bold-webfont.eot");
-  src: url("/fonts/myriadwebpro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/myriadwebpro-bold-webfont.woff") format("woff"), url("/fonts/myriadwebpro-bold-webfont.ttf") format("truetype"), url("/fonts/myriadwebpro-bold-webfont.svg#MyriadWebProBold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-html {
-  font-size: 1em;
-  line-height: 1.4;
-  background: #f1f1f1 url("/siteBg.png") repeat-x; }
+img.vegas-background2, #logo0 {
+  display: none; }
 
 body {
-  font-family: 'tahoma' !important; }
+  font-family: Verdana, sans-serif, Tahoma !important; }
 
-.header-bar {
-  background: #241f79;
-  height: 81px;
-  width: 960px;
-  margin: 0 auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-top: 25px;
-  line-height: 81px;
-  color: #fff;
-  opacity: .8; }
-  .header-bar #logo {
-    margin-left: 30px;
-    font-size: 30px; }
-  .header-bar #partner {
-    display: block;
-    float: right;
-    margin-top: 20px; }
+.home #header {
+  margin-bottom: 0; }
+  .home #header nav {
+    width: 1000px;
+    margin: 0 auto; }
+    .home #header nav #shadow {
+      display: block !important; }
+
+p {
+  line-height: 25px;
+  margin-bottom: 25px; }
+
+#header {
+  display: block;
+  text-align: center;
+  margin: 50px 0; }
+  #header img#logo {
+    width: 300px;
+    margin: 0 auto; }
+  #header nav {
+    text-align: center;
+    background: #1e5799;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #1e5799), color-stop(100%, #207cca));
+    /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 100%);
+    /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 100%);
+    /* IE10+ */
+    background: radial-gradient(ellipse at center, #1e5799 0%, #207cca 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+    height: 48px;
+    line-height: 48px;
+    position: relative; }
+    #header nav a {
+      display: inline-block;
+      color: #fff;
+      margin: 0 32px; }
+    #header nav img#shadow {
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      display: none; }
 
 #wrap {
   width: 960px;
   margin: 0 auto;
-  overflow-x: hidden;
-  box-shadow: 0px 0px 25px #8d8d8d; }
-  #wrap #sidebar .left-menu {
-    width: 275px;
+  line-height: 20px; }
+  #wrap aside {
     float: left;
-    background: #f1f1f1;
-    padding-top: 105px; }
-    #wrap #sidebar .left-menu ul {
-      margin: 0px;
-      padding: 0px; }
-      #wrap #sidebar .left-menu ul li {
-        list-style: none; }
-        #wrap #sidebar .left-menu ul li.hover a {
-          color: #fff;
-          text-shadow: none; }
-        #wrap #sidebar .left-menu ul li.current {
-          box-shadow: inset 0 0 10px #bdbdbd;
-          background: #f1f1f1; }
-        #wrap #sidebar .left-menu ul li a {
-          text-shadow: 1px 1px 1px #DBDBDB;
-          text-decoration: none;
-          display: block;
-          padding: 15px 0;
-          border-bottom: 2px solid #c8c8c8;
-          color: #241f79;
-          padding-left: 35px; }
-  #wrap #right-content {
-    width: 685px;
-    float: left;
-    background: #fff;
-    overflow: hidden; }
-    #wrap #right-content .maincontent {
-      padding: 40px;
-      color: #5a5a5a;
-      text-shadow: 1px 1px 1px #EBEBEB;
-      line-height: 20px; }
-      #wrap #right-content .maincontent h4 {
-        font-size: 30px;
-        margin-bottom: 20px; }
-      #wrap #right-content .maincontent h6 {
-        font-size: 15px;
-        text-align: center; }
-      #wrap #right-content .maincontent p {
-        margin-bottom: 30px; }
-  #wrap .mission-section h4 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-    color: #241f79;
+    width: 270px;
     display: block; }
-  #wrap .mission-section p {
-    font-size: 14px;
-    width: 75%;
-    margin: 0 auto;
-    padding-bottom: 15px;
-    line-height: 25px; }
+  #wrap section {
+    padding: 10px;
+    float: left;
+    width: 670px; }
+    #wrap section img {
+      float: right; }
+  #wrap h3 {
+    font-size: bold;
+    font-size: 14pt;
+    text-transform: uppercase; }
+  #wrap h6 {
+    margin-top: .75em;
+    font-weight: bold; }
+  #wrap ul li {
+    color: #333;
+    font-weight: normal; }
+  #wrap h1 {
+    font-size: 28px;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 0 0 .75em 0;
+    margin-bottom: .75em; }
 
-#footer {
-  background: #241f79;
-  color: #fff;
-  width: 960px;
-  margin: 0 auto;
-  padding: 10px 0; }
-  #footer p {
-    text-align: center;
-    margin: 0 auto;
-    font-size: 10px; }
-
-img.vegas-background2 {
-  width: 100%;
-  position: absolute;
-  height: auto;
-  z-index: 2;
-  /*  display:none;*/ }
-
-#logo0 {
-  background: url("/bg2.jpg") center center no-repeat white;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1; }
-
-#chart {
-  text-align: center;
-  background: #6e273d;
-  padding: 40px; }
-  #chart img {
-    margin: 0 auto; }
+footer {
+  border-top: 1px solid #dbdbdb;
+  margin-top: 32px;
+  clear: both;
+  height: 60px;
+  line-height: 60px; }

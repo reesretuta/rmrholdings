@@ -9,9 +9,9 @@
     
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <!-- <link rel="stylesheet" href="/reset.css?v=1"> -->
-    <link rel="stylesheet" href="/css/style.css?v=1">
     <link rel="stylesheet" href="/reset.css?v=1">
+    <link rel="stylesheet" href="/css/style.css?v=1">
+    
     
     <link rel="shortcut icon" href="/media/images/favicon.ico">
     <script type="text/javascript" src="/media/js/libs/modernizr-1.7.min.js"></script>
@@ -23,38 +23,36 @@
 <body>
     <img class="vegas-background2" src="/bg.jpg" />
     <div id="logo0"></div>
-    <div class="header-bar clearfix">
-                <div id="logo">
-                    Rocky Mountain Resources
-                </div>
+    <div id="header">
+        <a href="/"><img id="logo" src="/bg2.jpg" /></a>
+        <nav>
+            <a href="/">HOME</a>
+            <a href="/#about">ABOUT US</a>
+            <a href="/#team">TEAM</a>
+            <a href="/#investments">PORTFOLIO</a>
+            <img id="shadow" src="/images/shadow.png" />
+        </nav>
     </div>
     <div id="wrap">
-        <div id="sidebar">
-            <div class="left-menu">
-                <ul>
-                    <li>
-                        <a class="current" href="/">Home</a> 
-                    </li>
-                    <li>
-                    <a href="#/about">About NGP</a></li>
-                    <li><a href="#/investments">Investments</a></li>
-                    <li><a href="#/events">Events &amp; Appearances</a></li>
-                    <li><a href="#/team">Our Team</a></li>
-                    <li><a href="#/news/">News</a></li>
-                </ul>
-            </div>
+        <div ng-view>
+            
         </div>
-        <div id="right-content">
-                <div ng-view>
         
-                </div>
-        </div>
+        
+        
+        
+        <footer>
+            <div class="left">
+                RMR © 2014
+            </div>
+            <div class="right">
+                
+            </div>
+        </footer>
+
+        
     </div>
     
-    <div id="footer">
-                    <p>Rocky Mountain Resources | 9595 Wilshire Blvd, Suite 310
-Beverly Hills, CA 90212 | Tel. + 1 310.409.4113 | <a href="#tc" id="fancyBoxLink">Terms and Conditions </a></p>
-            </div>
     <!-- main content wrapper end -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -62,19 +60,20 @@ Beverly Hills, CA 90212 | Tel. + 1 310.409.4113 | <a href="#tc" id="fancyBoxLink
     <script type="text/javascript" src="/media/js/site.js"></script>
     <script type="text/javascript">
     $(function(){
-        $("#sidebar li").on('click',function(){
-            $("#sidebar li").removeClass('current');
+        $("nav a").on('click',function(){
+            $("nav a").removeClass('current');
             $(this).addClass('current');
-            
+            $('body').removeClass('home');
         });
 
         
-        $("#sidebar li").not('.current').hover(function(){
+        $("nav li").not('.current').hover(function(){
             $(this).toggleClass('hover');
             $(this).css('background-color', '#241f79');
             },function(){
             $(this).toggleClass('hover');
             $(this).css('background-color', 'transparent');
+            
           });
     });
     var app = angular.module('rockyMountainApp',['ngRoute']);
@@ -86,7 +85,6 @@ Beverly Hills, CA 90212 | Tel. + 1 310.409.4113 | <a href="#tc" id="fancyBoxLink
             templateUrl: 'app/views/home.html'
         })
         .when('/about',{
-            controller: 'aboutController',
             templateUrl: 'app/views/about.html'
         })
         .when('/investments',{
@@ -102,12 +100,36 @@ Beverly Hills, CA 90212 | Tel. + 1 310.409.4113 | <a href="#tc" id="fancyBoxLink
     });
     
     app.controller('homepageController', function($scope){
-        
+        var bg = $('.vegas-background2');
+        var logo = $('#logo0');
+        // TweenLite.to(bg, 2, {left:"542px", backgroundColor:"black", borderBottomColor:"#90e500", color:"white"});
+        var intro = new TimelineLite({
+            onComplete: function(){
+                $(".vegas-background2, #logo0").remove();
+            }
+        });
+        $("body").addClass('home');
+    
+        intro.to(bg,4 ,{
+          // opacity: 0,
+          scale: 2, 
+          transformOrigin:"50% 50% 0",
+          // ease: 'easeInQuart',
+          ease: 'easeInCubic',
+          // onStart: function(){
+//             $("#questions").fadeOut(1000);
+//           }
+        })
+        .to(bg,1.5,{opacity:0},'-=0.5')
+        .to(logo,1,{
+            // scale: 15, 
+            opacity:0,
+            transformOrigin:"50% 50% 0",
+            ease: 'easeOutCubic'
+        },'=1');
     });
     
-    app.controller('aboutController', function($scope){
-        
-    });
+
     
     
     </script>
