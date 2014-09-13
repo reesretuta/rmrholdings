@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Title!</title>
+    <title>Rocky Mountain Resources</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     
@@ -31,6 +31,7 @@
             <a href="/#about">ABOUT US</a>
             <a href="/#team">TEAM</a>
             <a href="/#investments">PORTFOLIO</a>
+            <a class="last">NEWS</a>
             <img id="shadow" src="/images/shadow.png" />
         </nav>
     </div>
@@ -77,22 +78,14 @@
             
           });
     });
-    var app = angular.module('rockyMountainApp',['ui.router'])
-    .controller('teamController',function($rootScope, $scope, $stateParams){
-        switch ($stateParams.id) {
-        case 'chad':
-            $scope.name = 'Chad Man';
-            break;
-        default:
-            
-        }
-    });
+    var app = angular.module('rockyMountainApp',['ui.router']);
+    
     // app.use(express.static(__dirname + '/app'));
     app.config(function($stateProvider){
         $stateProvider
-        .state('team', {url: '/team', templateUrl: 'app/views/team.html', controller: 'teamController'})
+        .state('team', {url: '/team', templateUrl: 'app/views/team/team.html', controller: 'teamController'})
         .state('team.item', {url: '/:id' , templateUrl: 'app/views/team/employee.html', controller: 'teamController'}) //this state inherits the team state URL of /team
-        .state('about', {url: '/about', templateUrl: 'app/views/about.html'})
+        .state('about', {url: '/about', templateUrl: 'app/views/about/about.html'})
         .state('home', {url: '', templateUrl: 'app/views/home.html', controller: 'homepageController'})
         .state('portfolio', {url: '/investments', templateUrl: 'app/views/investments.html'});
         // .state('feed.item',       {url: '/feed/show/:id/item/:id_item', templateUrl: 'views/feed/main/item.html',   controller: 'ItemCrtl'      })
@@ -115,6 +108,16 @@
         //     templateUrl: 'app/views/team.html'
         // });
         
+    });
+    
+    app.controller('teamController',function($rootScope, $scope, $stateParams){
+        switch ($stateParams.id) {
+        case 'chad':
+            $scope.name = 'Chad Man';
+            break;
+        default:
+            
+        }
     });
     
     app.controller('homepageController', function($scope){

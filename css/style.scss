@@ -10,6 +10,7 @@ img.vegas-background2, #logo0{
 
 body{
   font-family:Verdana, sans-serif, Tahoma !important;
+  
 }
 
 .home{
@@ -55,10 +56,20 @@ p{
     height:48px;
     line-height:48px;
     position:relative;
+    
     a{
-      display:inline-block;
-      color:#fff;
-      margin:0 32px;
+      display: inline-block;
+      color: #fff;
+      padding: 0 32px;
+      border-right: 1px solid #ccc;
+      height: 29px;
+      line-height: 27px;
+      &:hover{
+        color:#ccc;
+      }
+      &.last{
+        border-right:none;
+      }
     }
     
     img#shadow{
@@ -74,7 +85,7 @@ p{
   width:960px;
   margin:0 auto;
   line-height:20px;
-  
+  text-shadow: 0 0 5px #D6D6D6;
   aside{
     float:left;
     width:270px;
@@ -100,6 +111,7 @@ p{
       font-size:bold;
       font-size: 14pt;
       text-transform: uppercase;
+      
   }
   h6{
       margin-top: .75em;
@@ -134,4 +146,6 @@ footer{
     clear:both;
     height:60px;
     line-height:60px;
+    font-size:12px;
+    text-shadow:none;
 }
