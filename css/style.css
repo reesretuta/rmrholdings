@@ -11,7 +11,9 @@ a {
   overflow: hidden;
   z-index: 999999999; }
   #logo0 .vegas-background2 {
-    position: absolute; }
+    position: absolute;
+    height: 100%;
+    width: 100%; }
 
 body {
   font-family: Verdana, sans-serif, Tahoma !important; }
