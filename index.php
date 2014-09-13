@@ -22,10 +22,12 @@
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-    <img class="vegas-background2" src="/bg.jpg" />
-    <div id="logo0"></div>
+    
+    <div id="logo0">
+        <img class="vegas-background2" src="/bg.jpg" />
+    </div>
     <div id="header">
-        <a href="/"><img id="logo" src="/bg2.jpg" /></a>
+        <a href="/"><img id="logo" src="/images/bg2.jpg" /></a>
         <nav>
             <a href="/">HOME</a>
             <a href="/#about">ABOUT US</a>
@@ -126,11 +128,11 @@
         // TweenLite.to(bg, 2, {left:"542px", backgroundColor:"black", borderBottomColor:"#90e500", color:"white"});
         var intro = new TimelineLite({
             onComplete: function(){
-                $(".vegas-background2, #logo0").remove();
+                $("#logo0").remove();
             }
         });
         $("body").addClass('home');
-    
+        //expand then fade
         intro.to(bg,4 ,{
           // opacity: 0,
           scale: 2, 

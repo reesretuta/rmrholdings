@@ -2,8 +2,16 @@ a {
   text-decoration: none;
   color: #333; }
 
-img.vegas-background2, #logo0 {
-  display: none; }
+#logo0 {
+  background: url("/images/bg2.jpg") #fff center center no-repeat !important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+  z-index: 999999999; }
+  #logo0 .vegas-background2 {
+    position: absolute; }
 
 body {
   font-family: Verdana, sans-serif, Tahoma !important; }
