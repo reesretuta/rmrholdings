@@ -19,6 +19,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script>
     <script src="/bower_components/angular/angular.js"></script>
     <script src="/bower_components/angular/angular-routes.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
     <img class="vegas-background2" src="/bg.jpg" />
@@ -34,7 +35,7 @@
         </nav>
     </div>
     <div id="wrap">
-        <div ng-view>
+        <div ui-view>
             
         </div>
         
@@ -76,26 +77,43 @@
             
           });
     });
-    var app = angular.module('rockyMountainApp',['ngRoute']);
+    var app = angular.module('rockyMountainApp',['ui.router'])
+    .controller('teamController',function($rootScope, $scope, $stateParams){
+        switch ($stateParams.id) {
+        case 'chad':
+            $scope.name = 'Chad Man';
+            break;
+        default:
+            
+        }
+    });
     // app.use(express.static(__dirname + '/app'));
-    app.config(function($routeProvider){
-        $routeProvider.when('/',
-        {
-            controller: 'homepageController',
-            templateUrl: 'app/views/home.html'
-        })
-        .when('/about',{
-            templateUrl: 'app/views/about.html'
-        })
-        .when('/investments',{
-            templateUrl: 'app/views/investments.html'
-        })
-        .when('/events',{
-            templateUrl: 'app/views/events.html'
-        })
-        .when('/team',{
-            templateUrl: 'app/views/team.html'
-        });
+    app.config(function($stateProvider){
+        $stateProvider
+        .state('team', {url: '/team', templateUrl: 'app/views/team.html', controller: 'teamController'})
+        .state('team.item', {url: '/:id' , templateUrl: 'app/views/team/employee.html', controller: 'teamController'}) //this state inherits the team state URL of /team
+        .state('about', {url: '/about', templateUrl: 'app/views/about.html'})
+        .state('home', {url: '', templateUrl: 'app/views/home.html', controller: 'homepageController'})
+        .state('portfolio', {url: '/investments', templateUrl: 'app/views/investments.html'});
+        // .state('feed.item',       {url: '/feed/show/:id/item/:id_item', templateUrl: 'views/feed/main/item.html',   controller: 'ItemCrtl'      })
+        
+        // $routeProvider.when('/',
+        // {
+        //     controller: 'homepageController',
+        //     templateUrl: 'app/views/home.html'
+        // })
+        // .when('/about',{
+        //     templateUrl: 'app/views/about.html'
+        // })
+        // .when('/investments',{
+        //     templateUrl: 'app/views/investments.html'
+        // })
+        // .when('/events',{
+        //     templateUrl: 'app/views/events.html'
+        // })
+        // .when('/team',{
+        //     templateUrl: 'app/views/team.html'
+        // });
         
     });
     
@@ -129,7 +147,6 @@
         },'=1');
     });
     
-
     
     
     </script>

@@ -72,6 +72,9 @@ p {
     width: 670px; }
     #wrap section img.right {
       float: right; }
+    #wrap section .bio img {
+      float: left;
+      margin: 0 20px 20px 0; }
   #wrap h3 {
     font-size: bold;
     font-size: 14pt;
