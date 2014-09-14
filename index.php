@@ -50,7 +50,7 @@
                 RMR © 2014
             </div>
             <div class="right">
-                
+                9595 Wilshire Blvd Beverly Hills, CA 90212
             </div>
         </footer>
 
@@ -115,7 +115,16 @@
     app.controller('teamController',function($rootScope, $scope, $stateParams){
         switch ($stateParams.id) {
         case 'chad':
-            $scope.name = 'Chad Man';
+            $scope.name = 'Chad';
+            $scope.position = 'Position';
+            $scope.bio = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+            $scope.email = 'email@email.com';
+            break;
+        case 'person2':
+            $scope.name = 'Person 2 Name';
+            $scope.position = 'Person 2 Position';
+            $scope.bio = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+            $scope.email = 'email@email.com';
             break;
         default:
             

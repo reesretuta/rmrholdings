@@ -4,7 +4,7 @@ a{
 }
 
 img.vegas-background2, #logo0{
-//  display:none;
+  display:none;
 
 }
 
@@ -26,7 +26,7 @@ img.vegas-background2, #logo0{
 }
 
 body{
-  font-family:Verdana, sans-serif, Tahoma !important;
+  font-family:Verdana, sans-serif, Tahoma;
   
 }
 
@@ -36,6 +36,7 @@ body{
     nav{
       width:1000px;
       margin: 0 auto;
+
       #shadow{
         display:block !important;
       }
@@ -52,7 +53,8 @@ p{
 #header{
   display:block;
   text-align:center;
-  margin:50px 0;
+  margin-bottom:50px;
+  padding-top:50px;
   
   img#logo{
     width:300px;
@@ -77,10 +79,14 @@ p{
     a{
       display: inline-block;
       color: #fff;
-      padding: 0 32px;
+      padding: 0 20px;
       border-right: 1px solid #ccc;
       height: 29px;
       line-height: 27px;
+      font-family:"Times New Roman",Georgia,Serif !important;
+      font-weight: normal;
+      font-size: 17px;
+      letter-spacing: .35em;
       &:hover{
         color:#ccc;
       }
@@ -102,11 +108,18 @@ p{
   width:960px;
   margin:0 auto;
   line-height:20px;
-  text-shadow: 0 0 5px #D6D6D6;
+//  text-shadow: 0 0 5px #D6D6D6;
+  #hero{
+    margin-bottom:20px;
+  }
   aside{
     float:left;
     width:270px;
     display:block;
+    h3{
+      margin-bottom:20px;
+      font-style:italic;
+    }
   }
   section{
     padding:10px;
@@ -165,4 +178,10 @@ footer{
     line-height:60px;
     font-size:12px;
     text-shadow:none;
+    .left{
+      float:left;
+    }
+    .right{
+      float:right;
+    }
 }

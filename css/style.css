@@ -2,6 +2,9 @@ a {
   text-decoration: none;
   color: #333; }
 
+img.vegas-background2, #logo0 {
+  display: none; }
+
 #logo0 {
   background: url("/images/bg2.jpg") #fff center center no-repeat !important;
   position: absolute;
@@ -16,7 +19,7 @@ a {
     width: 100%; }
 
 body {
-  font-family: Verdana, sans-serif, Tahoma !important; }
+  font-family: Verdana, sans-serif, Tahoma; }
 
 .home #header {
   margin-bottom: 0; }
@@ -33,7 +36,8 @@ p {
 #header {
   display: block;
   text-align: center;
-  margin: 50px 0; }
+  margin-bottom: 50px;
+  padding-top: 50px; }
   #header img#logo {
     width: 300px;
     margin: 0 auto; }
@@ -61,10 +65,14 @@ p {
     #header nav a {
       display: inline-block;
       color: #fff;
-      padding: 0 32px;
+      padding: 0 20px;
       border-right: 1px solid #ccc;
       height: 29px;
-      line-height: 27px; }
+      line-height: 27px;
+      font-family: "Times New Roman",Georgia,Serif !important;
+      font-weight: normal;
+      font-size: 17px;
+      letter-spacing: .35em; }
       #header nav a:hover {
         color: #ccc; }
       #header nav a.last {
@@ -78,12 +86,16 @@ p {
 #wrap {
   width: 960px;
   margin: 0 auto;
-  line-height: 20px;
-  text-shadow: 0 0 5px #D6D6D6; }
+  line-height: 20px; }
+  #wrap #hero {
+    margin-bottom: 20px; }
   #wrap aside {
     float: left;
     width: 270px;
     display: block; }
+    #wrap aside h3 {
+      margin-bottom: 20px;
+      font-style: italic; }
   #wrap section {
     padding: 10px;
     float: left;
@@ -118,3 +130,7 @@ footer {
   line-height: 60px;
   font-size: 12px;
   text-shadow: none; }
+  footer .left {
+    float: left; }
+  footer .right {
+    float: right; }
