@@ -5,7 +5,6 @@ a{
 
 img.vegas-background2, #logo0{
   display:none;
-
 }
 
 
@@ -63,15 +62,22 @@ p{
   
   nav{
     text-align:center;
-//    padding:10px;
-    background: rgb(30,87,153); /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(30,87,153,1) 0%, rgba(32,124,202,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(32,124,202,1))); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 100%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  rgba(30,87,153,1) 0%,rgba(32,124,202,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    
+    background: rgb(12,49,160); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(12,49,160,1) 0%, rgba(7,33,94,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(12,49,160,1)), color-stop(100%,rgba(7,33,94,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(12,49,160,1) 0%,rgba(7,33,94,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(12,49,160,1) 0%,rgba(7,33,94,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(12,49,160,1) 0%,rgba(7,33,94,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(12,49,160,1) 0%,rgba(7,33,94,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c31a0', endColorstr='#07215e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    
+    
+    
+    
     height:48px;
     line-height:48px;
     position:relative;
@@ -80,15 +86,16 @@ p{
       display: inline-block;
       color: #fff;
       padding: 0 20px;
-      border-right: 1px solid #ccc;
+      border-right: 1px solid #495D72;
       height: 29px;
       line-height: 27px;
       font-family:"Times New Roman",Georgia,Serif !important;
       font-weight: normal;
       font-size: 17px;
       letter-spacing: .35em;
-      &:hover{
-        color:#ccc;
+      &:hover, &.current{
+        color:#65658B;
+        
       }
       &.last{
         border-right:none;

@@ -2,9 +2,6 @@ a {
   text-decoration: none;
   color: #333; }
 
-img.vegas-background2, #logo0 {
-  display: none; }
-
 #logo0 {
   background: url("/images/bg2.jpg") #fff center center no-repeat !important;
   position: absolute;
@@ -43,21 +40,21 @@ p {
     margin: 0 auto; }
   #header nav {
     text-align: center;
-    background: #1e5799;
+    background: #0c31a0;
     /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 100%);
+    background: -moz-radial-gradient(center, ellipse cover, #0c31a0 0%, #07215e 100%);
     /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #1e5799), color-stop(100%, #207cca));
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #0c31a0), color-stop(100%, #07215e));
     /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #0c31a0 0%, #07215e 100%);
     /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 100%);
+    background: -o-radial-gradient(center, ellipse cover, #0c31a0 0%, #07215e 100%);
     /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover, #1e5799 0%, #207cca 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #0c31a0 0%, #07215e 100%);
     /* IE10+ */
-    background: radial-gradient(ellipse at center, #1e5799 0%, #207cca 100%);
+    background: radial-gradient(ellipse at center, #0c31a0 0%, #07215e 100%);
     /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c31a0', endColorstr='#07215e',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
     height: 48px;
     line-height: 48px;
@@ -66,15 +63,15 @@ p {
       display: inline-block;
       color: #fff;
       padding: 0 20px;
-      border-right: 1px solid #ccc;
+      border-right: 1px solid #495D72;
       height: 29px;
       line-height: 27px;
       font-family: "Times New Roman",Georgia,Serif !important;
       font-weight: normal;
       font-size: 17px;
       letter-spacing: .35em; }
-      #header nav a:hover {
-        color: #ccc; }
+      #header nav a:hover, #header nav a.current {
+        color: #65658B; }
       #header nav a.last {
         border-right: none; }
     #header nav img#shadow {
