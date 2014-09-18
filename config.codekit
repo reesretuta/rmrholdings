@@ -2,11 +2,11 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17756",
 "files": {
-	"\/app\/views\/about.html": {
+	"\/app\/views\/about\/about.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/about.html",
+		"inputAbbreviatedPath": "\/app\/views\/about\/about.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -29,20 +29,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/views\/investments.html": {
+	"\/app\/views\/operations.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/investments.html",
+		"inputAbbreviatedPath": "\/app\/views\/operations.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/views\/team.html": {
+	"\/app\/views\/operations\/industry.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/team.html",
+		"inputAbbreviatedPath": "\/app\/views\/operations\/industry.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/team\/employee.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/team\/employee.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/team\/team.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/team\/team.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -58,16 +76,172 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/bg2.jpg": {
-		"fileType": 16384,
+	"\/bower_components\/angular-ui-router\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 663840,
-		"inputAbbreviatedPath": "\/bg2.jpg",
-		"outputAbbreviatedPath": "\/bg2.jpg",
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/CHANGELOG.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-router\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-router\/release\/angular-ui-router.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/release\/angular-ui-router.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/release\/min\/angular-ui-router-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/release\/angular-ui-router.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/release\/angular-ui-router.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/release\/min\/angular-ui-router.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/common.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/common.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/common-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/resolve.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/resolve.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/resolve-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/state.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/state.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/state-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/stateDirectives.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/stateDirectives.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/stateDirectives-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/stateFilters.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/stateFilters.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/stateFilters-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/templateFactory.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/templateFactory.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/templateFactory-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/urlMatcherFactory.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/urlMatcherFactory.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/urlMatcherFactory-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/urlRouter.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/urlRouter.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/urlRouter-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/view.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/view.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/view-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/viewDirective.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/viewDirective.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/viewDirective-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-router\/src\/viewScroll.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/viewScroll.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-router\/src\/min\/viewScroll-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/bower_components\/angular\/angular-csp.css": {
 		"fileType": 16,
@@ -170,6 +344,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 663840,
+		"inputAbbreviatedPath": "\/images\/bg2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28098,
+		"inputAbbreviatedPath": "\/images\/bg2.png",
+		"outputAbbreviatedPath": "\/images\/bg2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/ag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7694,
+		"inputAbbreviatedPath": "\/images\/industries\/ag.png",
+		"outputAbbreviatedPath": "\/images\/industries\/ag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/energy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7258,
+		"inputAbbreviatedPath": "\/images\/industries\/energy.png",
+		"outputAbbreviatedPath": "\/images\/industries\/energy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/industrial.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8138,
+		"inputAbbreviatedPath": "\/images\/industries\/industrial.png",
+		"outputAbbreviatedPath": "\/images\/industries\/industrial.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/metals.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9087,
+		"inputAbbreviatedPath": "\/images\/industries\/metals.png",
+		"outputAbbreviatedPath": "\/images\/industries\/metals.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/investments.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -181,6 +421,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/mountains.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13173e+06,
+		"inputAbbreviatedPath": "\/images\/mountains.png",
+		"outputAbbreviatedPath": "\/images\/mountains.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mountains\/glacier-basin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 581694,
+		"inputAbbreviatedPath": "\/images\/mountains\/glacier-basin.jpg",
+		"outputAbbreviatedPath": "\/images\/mountains\/glacier-basin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mountains\/keystone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.45292e+06,
+		"inputAbbreviatedPath": "\/images\/mountains\/keystone.jpg",
+		"outputAbbreviatedPath": "\/images\/mountains\/keystone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mountains\/mid-west.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.88186e+06,
+		"inputAbbreviatedPath": "\/images\/mountains\/mid-west.jpg",
+		"outputAbbreviatedPath": "\/images\/mountains\/mid-west.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/shadow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -188,6 +472,17 @@
 		"initialSize": 1525,
 		"inputAbbreviatedPath": "\/images\/shadow.png",
 		"outputAbbreviatedPath": "\/images\/shadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/team.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210684,
+		"inputAbbreviatedPath": "\/images\/team.png",
+		"outputAbbreviatedPath": "\/images\/team.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

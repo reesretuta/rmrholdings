@@ -2,8 +2,11 @@ a {
   text-decoration: none;
   color: #333; }
 
+img.vegas-background2, #logo0 {
+  display: none; }
+
 #logo0 {
-  background: url("/images/bg2.jpg") #fff center center no-repeat !important;
+  background: url("/images/bg2.png") #fff center center no-repeat !important;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -26,6 +29,14 @@ body {
     .home #header nav #shadow {
       display: block !important; }
 
+body.introAnimation img.vegas-background2, body.introAnimation #logo0 {
+  display: block !important; }
+
+#industry img {
+  width: 60%;
+  float: left;
+  margin: 0 20px 20px 0; }
+
 p {
   line-height: 25px;
   margin-bottom: 25px; }
@@ -37,7 +48,7 @@ p {
   padding-top: 50px; }
   #header img#logo {
     width: 300px;
-    margin: 0 auto; }
+    margin: 0 auto 15px auto; }
   #header nav {
     text-align: center;
     background: #0c31a0;
@@ -62,16 +73,18 @@ p {
     #header nav a {
       display: inline-block;
       color: #fff;
-      padding: 0 20px;
+      padding: 0 15px;
       border-right: 1px solid #495D72;
       height: 29px;
       line-height: 27px;
       font-family: "Times New Roman",Georgia,Serif !important;
       font-weight: normal;
-      font-size: 17px;
-      letter-spacing: .35em; }
+      font-size: 15px;
+      letter-spacing: .1em; }
       #header nav a:hover, #header nav a.current {
         color: #65658B; }
+      #header nav a.current {
+        text-decoration: underline; }
       #header nav a.last {
         border-right: none; }
     #header nav img#shadow {
@@ -131,3 +144,6 @@ footer {
     float: left; }
   footer .right {
     float: right; }
+
+body #header {
+  background-size: 100% 100%; }
