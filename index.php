@@ -24,7 +24,7 @@
 <body class="">
     
     <div id="logo0">
-        <img class="vegas-background2" src="/bg.jpg" />
+        <img class="vegas-background2" src="/images/mountains/<?= $_GET['img'] ?>.jpg" />
     </div>
     <div id="header">
         <a href="/"><img id="logo" src="/images/bg2.png" /></a>
@@ -33,7 +33,7 @@
             <a href="/#about">ABOUT US</a>
             <a href="/#team">TEAM</a>
             <a href="/#operations">OPERATIONS</a>
-            <a href="/#contact" class="last">CONTACT</a>
+            <a href="/#contact " class="last">CONTACT</a>
             <!-- <a href="/#agriculture">AGRICULTURE</a>
             <a href="/#energy">ENERGY</a>
             <a href="/#industrials">INDUSTRIALS</a>
