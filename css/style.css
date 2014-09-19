@@ -106,12 +106,14 @@ p {
   #wrap #hero-wrap {
     position: relative; }
     #wrap #hero-wrap img {
-      width: 100%; }
+      width: 100%;
+      padding: 7px;
+      border: 1px solid #E2E2E2; }
     #wrap #hero-wrap #hero-text {
       position: absolute;
       left: 0;
       right: 0;
-      top: 200px;
+      top: 50%;
       color: #fff;
       text-align: center;
       text-shadow: 0 0 10px #000000; }
@@ -120,9 +122,9 @@ p {
         font-size: 30px;
         margin-bottom: 20px; }
   #wrap section {
-    padding: 10px;
     float: left;
-    width: 670px; }
+    width: 670px;
+    padding-bottom: 80px; }
     #wrap section #hero-wrap img {
       padding: 7px;
       border: 1px solid #E2E2E2; }
@@ -131,6 +133,10 @@ p {
       margin: 0 20px 20px 0; }
   #wrap .fullWidth img {
     margin: 0 15px 15px 0; }
+  #wrap .fullWidth #line {
+    width: 50%;
+    border-bottom: 1px solid #dbdbdb;
+    margin: 0 auto 30px auto; }
   #wrap h3 {
     font-size: bold;
     font-size: 14pt;

@@ -32,7 +32,8 @@
             <a href="/#home">HOME</a>
             <a href="/#about">ABOUT US</a>
             <a href="/#team">TEAM</a>
-            <a href="/#operations" class="last">OPERATIONS</a>
+            <a href="/#operations">OPERATIONS</a>
+            <a href="/#contact" class="last">CONTACT</a>
             <!-- <a href="/#agriculture">AGRICULTURE</a>
             <a href="/#energy">ENERGY</a>
             <a href="/#industrials">INDUSTRIALS</a>
