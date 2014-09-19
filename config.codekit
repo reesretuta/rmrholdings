@@ -47,6 +47,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/views\/operations\/operations.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/operations\/operations.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/views\/team\/employee.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -366,6 +375,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/homepage.png",
+		"outputAbbreviatedPath": "\/images\/homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/industries\/ag.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -421,17 +441,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/mountains.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.13173e+06,
-		"inputAbbreviatedPath": "\/images\/mountains.png",
-		"outputAbbreviatedPath": "\/images\/mountains.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/mountains\/glacier-basin.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -461,6 +470,17 @@
 		"initialSize": 3.88186e+06,
 		"inputAbbreviatedPath": "\/images\/mountains\/mid-west.jpg",
 		"outputAbbreviatedPath": "\/images\/mountains\/mid-west.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mountains\/mountains.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13173e+06,
+		"inputAbbreviatedPath": "\/images\/mountains\/mountains.png",
+		"outputAbbreviatedPath": "\/images\/mountains\/mountains.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

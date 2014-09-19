@@ -32,11 +32,11 @@
             <a href="/#home">HOME</a>
             <a href="/#about">ABOUT US</a>
             <a href="/#team">TEAM</a>
-            <!-- <a href="/#operations" class="last">OPERATIONS</a> -->
-            <a href="/#agriculture">AGRICULTURE</a>
+            <a href="/#operations" class="last">OPERATIONS</a>
+            <!-- <a href="/#agriculture">AGRICULTURE</a>
             <a href="/#energy">ENERGY</a>
             <a href="/#industrials">INDUSTRIALS</a>
-            <a href="/#metals" class="last">METALS & MINING</a>
+            <a href="/#metals" class="last">METALS & MINING</a> -->
             <img id="shadow" src="/images/shadow.png" />
             
         </nav>
@@ -99,7 +99,9 @@
             {url: '/:id' , templateUrl: 'app/views/team/employee.html', controller: 'teamController'}) //this state inherits the team state URL of /team
         .state('about', 
             {url: '/about', templateUrl: 'app/views/about/about.html'})
-        .state('industry',
+        .state('operations',
+            {url: '/operations', templateUrl: 'app/views/operations/operations.html'})
+        .state('operations.type',
             {url: '/:id', controller: 'operationsController', templateUrl: 'app/views/operations/industry.html'});
             
         // $routeProvider.when('/',
@@ -134,22 +136,25 @@
 
     
     app.controller('operationsController',function($rootScope, $scope, $stateParams){
-        
         switch ($stateParams.id) {
         case 'agriculture':
-            $scope.imageUrl = '/images/investments.png';
+            $scope.title = 'Agriculture';
+            $scope.imageUrl = 'http://www.energylandscapes.net/images/large/AF4A2717-III-WEB.jpg';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
             
             break;
         case 'energy':
-            $scope.imageUrl = '/images/investments.png';
+            $scope.title = 'Energy';
+            $scope.imageUrl = 'http://www.energylandscapes.net/images/large/AF4A2717-III-WEB.jpg';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
         break;
         case 'industrials':
+            $scope.title = 'Industrial';
             $scope.imageUrl = 'http://www.energylandscapes.net/images/large/AF4A2717-III-WEB.jpg';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
         break;
         case 'metals':
+            $scope.title = 'Metals & Mining';
             $scope.imageUrl = 'http://www.energylandscapes.net/images/large/AF4A8790-IV-WEB.jpg';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
         break;
@@ -221,13 +226,15 @@
 //             $("#questions").fadeOut(1000);
 //           }
         })
-        .to(bg,1.5,{opacity:0},'-=0.5')
-        .to(logo,1,{
+        .to(bg,1.5,{opacity:0},'-=0.5') //fadeout mountains
+        .to(logo,1.5,{
             // scale: 15, 
             opacity:0,
             transformOrigin:"50% 50% 0",
-            ease: 'easeOutCubic'
-        },'=1');
+            scale: 50,
+            ease: 'easeIn',
+            // top: '-800px'
+        },'=1');  //fadeout logo
     });
     
     

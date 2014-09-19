@@ -25,8 +25,8 @@ img.vegas-background2, #logo0{
 }
 
 body{
-  font-family:Verdana, sans-serif, Tahoma;
-  
+//  font-family:Verdana, sans-serif, Tahoma;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .home{
@@ -53,9 +53,8 @@ body.introAnimation{
 #industry{
 //  margin-top:-50px;
   img{
-    width: 60%;
-    float: left;
-    margin: 0 20px 20px 0;
+    width: 100%;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -108,14 +107,14 @@ p{
       line-height: 27px;
       font-family:"Times New Roman",Georgia,Serif !important;
       font-weight: normal;
-      font-size: 15px;
-      letter-spacing: .1em;
+      font-size: 19px;
+      letter-spacing: 0.25em;
       &:hover, &.current{
         color:#65658B;
       }
       
       &.current{
-        text-decoration:underline;
+//        text-decoration:underline;
       }
       &.last{
         border-right:none;
@@ -148,13 +147,45 @@ p{
       font-style:italic;
     }
   }
+  
+  #hero-wrap{
+    position:relative;
+    img{
+      width:100%;
+    }
+    #hero-text{
+        position:absolute;
+        left:0;
+        right:0;
+        top:200px;
+        color:#fff;
+        text-align:center;
+        text-shadow: 0 0 10px #000000;
+        div{
+          display:block;
+          font-size:30px;
+          margin-bottom:20px;
+        }
+        span{
+          
+        }
+      }
+  }
+  
+  
   section{
     padding:10px;
     float:left;
     width:670px;
-    img.right{
-      float:right;
+    
+    
+    #hero-wrap {
+      img{
+        padding:7px;
+        border:1px solid #E2E2E2
+      }
     }
+    
     .bio{
       img{
         float:left;
@@ -163,6 +194,15 @@ p{
     }
   }
   
+  .fullWidth{
+    img{
+      margin:0 15px 15px 0;
+    }
+  }
+  
+  
+  
+
   
   h3{
       font-size:bold;
@@ -180,6 +220,7 @@ p{
           color: #333;
           font-weight: normal;
           font-size:15px;
+          margin-bottom:15px;
           a{
             
           }
@@ -233,4 +274,9 @@ body{
 //      background-image:url('http://www.energylandscapes.net/images/large/AF4A8022-IV-1-2-Pan-WEB.jpg');
 //    }
     
+}
+
+.imageFrame{
+  border: 1px solid #E2E2E2;
+  padding: 7px;
 }
