@@ -4,6 +4,10 @@ a{
 }
 
 img.vegas-background2, #logo0{
+  display:none !important;
+}
+
+img.vegas-background2, #logo0{
   display:none;
 }
 
@@ -287,4 +291,19 @@ body{
 .imageFrame{
   border: 1px solid #E2E2E2;
   padding: 7px;
+}
+
+
+.column{
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 60px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 60px; /* Firefox */
+  column-gap: 60px;
+//  -webkit-column-rule: 3px outset #ff00ff; /* Chrome, Safari, Opera */
+//  -moz-column-rule: 3px outset #ff00ff; /* Firefox */
+//  column-rule: 3px outset #ff00ff;
+  padding:0 20px;
+  text-align:justify;
 }

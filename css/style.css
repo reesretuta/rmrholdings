@@ -3,6 +3,9 @@ a {
   color: #333; }
 
 img.vegas-background2, #logo0 {
+  display: none !important; }
+
+img.vegas-background2, #logo0 {
   display: none; }
 
 #logo0 {
@@ -174,3 +177,17 @@ body #header {
 .imageFrame {
   border: 1px solid #E2E2E2;
   padding: 7px; }
+
+.column {
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 60px;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 60px;
+  /* Firefox */
+  column-gap: 60px;
+  padding: 0 20px;
+  text-align: justify; }
