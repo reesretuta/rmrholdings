@@ -25,8 +25,10 @@ img.vegas-background2, #logo0 {
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; }
 
-body.introAnimation img.vegas-background2, body.introAnimation #logo0 {
-  display: block !important; }
+body.introAnimation {
+  overflow: hidden; }
+  body.introAnimation img.vegas-background2, body.introAnimation #logo0 {
+    display: block !important; }
 
 #industry img {
   width: 100%;
@@ -96,12 +98,11 @@ p {
   width: 960px;
   margin: 0 auto;
   line-height: 20px;
-  border: 1px solid #ccc; }
-  #wrap #hero {
-    margin-bottom: 20px; }
+  border: 1px solid #ccc;
+  border-top: none; }
   #wrap aside {
     float: left;
-    width: 270px;
+    width: 230px;
     display: block;
     padding: 40px; }
     #wrap aside h3 {
@@ -136,7 +137,7 @@ p {
     padding-top: 40px; }
     #wrap section #hero-wrap img {
       padding: 7px;
-      border: 1px solid #E2E2E2; }
+      border: 1px solid #ccc; }
     #wrap section .bio img {
       float: left;
       margin: 0 20px 20px 0; }
@@ -167,13 +168,14 @@ p {
     margin-bottom: .75em; }
 
 footer {
-  border-top: 1px solid #dbdbdb;
   margin-top: 32px;
   clear: both;
   height: 60px;
   line-height: 60px;
   font-size: 12px;
-  text-shadow: none; }
+  text-shadow: none;
+  width: 960px;
+  margin: 0 auto; }
   footer .left {
     float: left; }
   footer .right {
@@ -199,3 +201,23 @@ body #header {
   column-gap: 60px;
   padding: 0 20px;
   text-align: justify; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */

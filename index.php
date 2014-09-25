@@ -42,25 +42,19 @@
             
         </nav>
     </div>
-    <div id="wrap">
+    <div id="wrap" class="clearfix">
         <div ui-view>
             
         </div>
-        
-        
-        
-        
-        <footer>
-            <div class="left">
-                RMR © 2014
-            </div>
-            <div class="right">
-                9595 Wilshire Blvd Beverly Hills, CA 90212
-            </div>
-        </footer>
-
-        
     </div>
+    <footer>
+        <div class="left">
+            RMR © 2014
+        </div>
+        <div class="right">
+            9595 Wilshire Blvd Beverly Hills, CA 90212
+        </div>
+    </footer>
     
     <!-- main content wrapper end -->
 
@@ -213,11 +207,12 @@
         var intro = new TimelineLite({
             onComplete: function(){
                 $("#logo0").remove();
-                $("body").addClass('home');
+                $("body").removeClass('introAnimation').addClass('home');
+                
             }
         });
         //expand then fade
-        intro.to(bg,4 ,{
+        intro.to(bg,5 ,{
           // opacity: 0,
           scale: 2,
           transformOrigin:"50% 50% 0",
@@ -227,13 +222,13 @@
 //             $("#questions").fadeOut(1000);
 //           }
         })
-        .to(bg,1.5,{opacity:0},'-=0.5') //fadeout mountains
+        .to(bg,1.5,{opacity:0},'-=1.2') //fadeout mountains
         .to(logo,1.5,{
             // scale: 15, 
             // opacity:0,
             transformOrigin:"50% 50% 0",
             // scale: 50,
-            ease: 'easeIn',
+            ease: 'easeInCubic',
             top: '-800px'
         },'=1');  //fadeout logo
     });
