@@ -21,6 +21,7 @@ img.vegas-background2, #logo0{
   background:#fff;
   overflow:hidden;
   z-index:999999999;
+  border-bottom:1px solid #000;
   .vegas-background2{
     position:absolute;
     height:100%;
@@ -33,20 +34,6 @@ body{
   font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-.home{
-  #header{
-    margin-bottom:0;
-    nav{
-      width:1000px;
-      margin: 0 auto;
-      -webkit-border-radius: 20px 20px 0 0;
-      border-radius: 20px 20px 0 0;
-      #shadow{
-        display:block !important;
-      }
-    }
-  }
-}
 
 
 body.introAnimation{
@@ -73,12 +60,11 @@ p{
 #header{
   display:block;
   text-align:center;
-  margin-bottom:50px;
   padding-top:50px;
-  
+  margin-top:0;
   img#logo{
     width:300px;
-    margin:0 auto 15px auto;
+    margin:0 auto 15px auto; 
   }
   
   nav{
@@ -93,16 +79,17 @@ p{
     background: -ms-radial-gradient(center, ellipse cover,  rgba(12,49,160,1) 0%,rgba(7,33,94,1) 100%); /* IE10+ */
     background: radial-gradient(ellipse at center,  rgba(12,49,160,1) 0%,rgba(7,33,94,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c31a0', endColorstr='#07215e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-    
-    
-    
-    
     height:48px;
     line-height:48px;
     position:relative;
     
+    width:1000px;
+    margin: 0 auto;
+    -webkit-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+    #shadow{
+      display:block !important;
+    }
     a{
       display: inline-block;
       color: #fff;
@@ -130,15 +117,18 @@ p{
       position: absolute;
       bottom: -8px;
       left: 0;
-      display:none;
+      z-index:2;
+//      display:none;
     }
   }
 }
 
 #wrap{
-  width:960px;
-  margin:0 auto;
-  line-height:20px;
+  width: 960px;
+  margin: 0 auto;
+  line-height: 20px;
+  border: 1px solid #ccc;
+//  padding: 40px;
 //  text-shadow: 0 0 5px #D6D6D6;
   #hero{
     margin-bottom:20px;
@@ -147,6 +137,7 @@ p{
     float:left;
     width:270px;
     display:block;
+    padding:40px;
     h3{
       margin-bottom:20px;
       
@@ -163,8 +154,8 @@ p{
     position:relative;
     img{
       width:100%;
-      padding:7px;
-      border:1px solid #E2E2E2
+//      padding:7px;
+//      border:1px solid #E2E2E2
     }
     #hero-text{
         position:absolute;
@@ -189,8 +180,9 @@ p{
   section{
 //    padding:10px;
     float:left;
-    width:670px;
+    width:585px;
     padding-bottom:80px;
+    padding-top:40px;
     
     #hero-wrap {
       img{
@@ -216,6 +208,9 @@ p{
       width:50%;
       border-bottom:1px solid #dbdbdb;
       margin:0 auto 30px auto;
+    }
+    .text-wrap{
+      padding:20px;
     }
   }
   

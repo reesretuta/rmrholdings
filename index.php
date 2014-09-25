@@ -24,7 +24,7 @@
 <body class="">
     
     <div id="logo0">
-        <img class="vegas-background2" src="/images/mountains/<?= $_GET['img'] ?>.jpg" />
+        <img class="vegas-background2" src="/images/mountains/mid-west.jpg" />
     </div>
     <div id="header">
         <a href="/"><img id="logo" src="/images/bg2.png" /></a>
@@ -230,11 +230,11 @@
         .to(bg,1.5,{opacity:0},'-=0.5') //fadeout mountains
         .to(logo,1.5,{
             // scale: 15, 
-            opacity:0,
+            // opacity:0,
             transformOrigin:"50% 50% 0",
-            scale: 50,
+            // scale: 50,
             ease: 'easeIn',
-            // top: '-800px'
+            top: '-800px'
         },'=1');  //fadeout logo
     });
     
