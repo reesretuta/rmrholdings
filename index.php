@@ -140,7 +140,7 @@
         switch ($stateParams.id) {
         case 'agriculture':
             $scope.title = 'Agriculture';
-            $scope.imageUrl = 'http://www.energylandscapes.net/images/large/AF4A2717-III-WEB.jpg';
+            $scope.imageUrl = '/images/industries/heros/ag.png';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
             
             break;
@@ -151,12 +151,12 @@
         break;
         case 'industrials':
             $scope.title = 'Industrial';
-            $scope.imageUrl = 'http://www.energylandscapes.net/images/large/AF4A2717-III-WEB.jpg';
+            $scope.imageUrl = '/images/industries/heros/industrial.png';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
         break;
         case 'metals':
             $scope.title = 'Metals & Mining';
-            $scope.imageUrl = 'http://www.energylandscapes.net/images/large/AF4A8790-IV-WEB.jpg';
+            $scope.imageUrl = '/images/industries/heros/metals.png';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
         break;
     

@@ -74,17 +74,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.52077e+06,
-		"inputAbbreviatedPath": "\/bg.jpg",
-		"outputAbbreviatedPath": "\/bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/bower_components\/angular-ui-router\/CHANGELOG.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -408,6 +397,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/industries\/heros\/ag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7694,
+		"inputAbbreviatedPath": "\/images\/industries\/heros\/ag.png",
+		"outputAbbreviatedPath": "\/images\/industries\/heros\/ag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/heros\/energy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7258,
+		"inputAbbreviatedPath": "\/images\/industries\/heros\/energy.png",
+		"outputAbbreviatedPath": "\/images\/industries\/heros\/energy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/heros\/industrial.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8138,
+		"inputAbbreviatedPath": "\/images\/industries\/heros\/industrial.png",
+		"outputAbbreviatedPath": "\/images\/industries\/heros\/industrial.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/heros\/metals.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9087,
+		"inputAbbreviatedPath": "\/images\/industries\/heros\/metals.png",
+		"outputAbbreviatedPath": "\/images\/industries\/heros\/metals.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/industries\/industrial.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -437,6 +470,17 @@
 		"initialSize": 162808,
 		"inputAbbreviatedPath": "\/images\/investments.png",
 		"outputAbbreviatedPath": "\/images\/investments.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mountains\/bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.52077e+06,
+		"inputAbbreviatedPath": "\/images\/mountains\/bg.jpg",
+		"outputAbbreviatedPath": "\/images\/mountains\/bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
