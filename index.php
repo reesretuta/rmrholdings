@@ -14,7 +14,6 @@
     
     
     <link rel="shortcut icon" href="/media/images/favicon.ico">
-    <script type="text/javascript" src="/media/js/libs/modernizr-1.7.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script>
     <script src="/bower_components/angular/angular.js"></script>
@@ -59,8 +58,6 @@
     <!-- main content wrapper end -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="/media/js/plugins.js"></script>        
-    <script type="text/javascript" src="/media/js/site.js"></script>
     <script type="text/javascript">
     $(function(){
         $("nav a").on('click',function(){
