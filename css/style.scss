@@ -56,6 +56,7 @@ body.introAnimation{
 p{
   line-height:25px;
   margin-bottom:25px;
+  font-size:14px;
 }
 
 #header{
@@ -130,8 +131,9 @@ p{
   line-height: 20px;
   border: 1px solid #ccc;
   border-top:none;
-//  padding: 40px;
-//  text-shadow: 0 0 5px #D6D6D6;
+  text-shadow: 0 0 5px #D6D6D6;
+  background:#ECECEC;
+  color:#646464;
   #hero{
 //    margin-bottom:20px;
   }
@@ -157,14 +159,17 @@ p{
         height:85px;
       }
     }
+    
+    ul{
+      border-right:1px double #ccc;
+    }
   }
   
   #hero-wrap{
     position:relative;
     img{
       width:100%;
-//      padding:7px;
-//      border:1px solid #E2E2E2
+
     }
     #hero-text{
         position:absolute;
@@ -195,8 +200,7 @@ p{
     
     #hero-wrap {
       img{
-        padding:7px;
-        border:1px solid #ccc;
+
       }
     }
     
@@ -204,6 +208,10 @@ p{
       img{
         float:left;
         margin:0 20px 20px 0;
+      }
+      h3{
+        margin-bottom:10px;
+        font-style:italic;
       }
     }
   }
@@ -302,8 +310,9 @@ body{
 }
 
 .imageFrame{
-  border: 1px solid #E2E2E2;
+//  border: 1px solid #E2E2E2;
   padding: 7px;
+  background:#fff;
 }
 
 
