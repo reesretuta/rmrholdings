@@ -111,6 +111,8 @@ p {
         font-weight: bold;
         color: #0c31a0;
         text-decoration: underline; }
+    #wrap aside .industriesList img {
+      height: 85px; }
   #wrap #hero-wrap {
     position: relative; }
     #wrap #hero-wrap img {
