@@ -131,7 +131,7 @@
         switch ($stateParams.id) {
         case 'agriculture':
             $scope.title = 'Agriculture';
-            $scope.imageUrl = '/images/industries/heros/ag.png';
+            $scope.imageUrl = '/images/industries/heros/ag.jpg';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
             
             break;
@@ -142,12 +142,12 @@
         break;
         case 'industrials':
             $scope.title = 'Industrial';
-            $scope.imageUrl = '/images/industries/heros/industrial.png';
+            $scope.imageUrl = '/images/industries/heros/industrial.jpg';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
         break;
         case 'metals':
             $scope.title = 'Metals & Mining';
-            $scope.imageUrl = '/images/industries/heros/metals.png';
+            $scope.imageUrl = '/images/industries/heros/metals.jpg';
             $scope.description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
         break;
     
@@ -176,7 +176,7 @@
         case 'isaac':
             $scope.name = 'Isaac Morgan';
             $scope.position = 'Operating Partner';
-            $scope.bio = 'Isaac Morgan is an Operating Partner at RMR where he is responsible for due diligence of all acquisitions and operational integration. Mr. Morgan has a background in public accounting, large public scale mining operations and natural resource project development. Mr. Morgan has provided consulting services to numerous natural resource companies in managing operations, project finance preparation, and internal reporting. Previously, Mr. Morgan served as Corporate Controller of a public natural resource development company in which he worked on the preparation of the prefeasibility study, managed public company financial statement filings, and led strategic teams regarding ERP selection, budgeting, and public financings. Prior to that, Mr. Morgan worked at Freeport McMoRan Copper & Gold, Inc. where he was responsible for corporate consolidation of North and South American entities to the parent, played a key role in the company’s SAP implementation, and prepared internal reporting for high level management. Prior to that, Mr. Morgan worked as a consultant on the Cloud Peak Energy divesture from its parent, Rio Tinto, by assisting internal management to prepare for its initial public offering and liaison with external auditors. Mr. Morgan began his professional career at KPMG, LLP as a senior auditor working on Fortune 500 companies and small private companies. Mr. Morgan received a BS in Accounting from the University of Arizona and is a licensed CPA in the Colorado.';
+            $scope.bio = 'Isaac Morgan is an Operating Partner at RMR where he is responsible for due diligence of all acquisitions and operational integration. Mr. Morgan has a background in public accounting, large public scale mining operations and natural resource project development. Mr. Morgan has provided consulting services to numerous natural resource companies in managing operations, project finance preparation, and internal reporting. Previously, Mr. Morgan served as Corporate Controller of a public natural resource development company in which he worked on the preparation of the prefeasibility study, managed public company financial statement filings, and led strategic teams regarding ERP selection, budgeting, and public financings. Prior to that, Mr. Morgan worked at Freeport McMoRan Copper & Gold, Inc. where he was responsible for corporate consolidation of North and South American entities to the parent, played a key role in the company’s SAP implementation, and prepared internal reporting for high level management. Prior to that, Mr. Morgan worked as a consultant on the Cloud Peak Energy divesture from its parent, Rio Tinto, by assisting internal management to prepare for its initial public offering and liaison with external auditors. Mr. Morgan began his professional career at KPMG, LLP as a senior auditor working on Fortune 500 companies and small private companies. Mr. Morgan received a BS in Accounting from the University of Arizona and is a licensed CPA in Colorado.';
             break;
         case 'jonathan':
             $scope.name = 'Jonathan Ma';
