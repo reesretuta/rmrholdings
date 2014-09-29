@@ -110,7 +110,11 @@ p {
     display: block;
     padding: 40px; }
     #wrap aside h3 {
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      font-style: italic;
+      font-weight: bold;
+      color: #0c31a0;
+      text-decoration: underline; }
       #wrap aside h3 a {
         font-style: italic;
         font-weight: bold;
@@ -119,7 +123,8 @@ p {
     #wrap aside .industriesList img {
       height: 85px; }
     #wrap aside ul {
-      border-right: 1px double #ccc; }
+      border-right: 1px double #ccc;
+      margin-bottom: 45px; }
   #wrap #hero-wrap {
     position: relative; }
     #wrap #hero-wrap img {
