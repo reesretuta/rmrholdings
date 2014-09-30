@@ -91,6 +91,8 @@
             {url: '/:id' , templateUrl: 'app/views/team/employee.html', controller: 'teamController'}) //this state inherits the team state URL of /team
         .state('about', 
             {url: '/about', templateUrl: 'app/views/about/about.html'})
+        .state('contact', 
+            {url: '/contact', templateUrl: 'app/views/contact.html'})
         .state('operations',
             {url: '/operations', templateUrl: 'app/views/operations/operations.html'})
         .state('operations.type',
