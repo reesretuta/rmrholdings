@@ -95,6 +95,9 @@ p {
       left: 0;
       z-index: 2; }
 
+.home #wrap {
+  height: 401px; }
+
 #wrap {
   width: 960px;
   margin: 0 auto;
@@ -103,7 +106,8 @@ p {
   border-top: none;
   text-shadow: 0 0 5px #D6D6D6;
   background: #ECECEC;
-  color: #646464; }
+  color: #646464;
+  border-bottom: none; }
   #wrap aside {
     float: left;
     width: 230px;
@@ -179,6 +183,7 @@ p {
     margin-bottom: .75em; }
 
 footer {
+  border-top: 1px solid #dbdbdb;
   margin-top: 32px;
   clear: both;
   height: 60px;

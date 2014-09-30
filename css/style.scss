@@ -125,6 +125,10 @@ p{
   }
 }
 
+.home #wrap{
+  height:401px;
+}
+
 #wrap{
   width: 960px;
   margin: 0 auto;
@@ -134,6 +138,8 @@ p{
   text-shadow: 0 0 5px #D6D6D6;
   background:#ECECEC;
   color:#646464;
+  border-bottom:none;
+
   #hero{
 //    margin-bottom:20px;
   }
@@ -274,7 +280,7 @@ p{
 
 
 footer{
-//    border-top:1px solid #dbdbdb;
+    border-top:1px solid #dbdbdb;
     margin-top:32px;
     clear:both;
     height:60px;

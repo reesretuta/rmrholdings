@@ -1,6 +1,7 @@
 <h1>{{name}}</h1>
+
 <div class="bio">
-<img src="http://www.whitedeerenergy.com/wp/wp-content/uploads/Edelman_T_LADD0164_web-170x238.jpg" class="imageFrame"/>
+<img ng-if="profileUrl" src="{{profileUrl}}" class="imageFrame"/>
 					<h3>{{position}}</h3>
           <p>{{bio}}</p>
 </div>
