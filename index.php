@@ -238,10 +238,11 @@
         .to(logo,1.5,{
             // scale: 15, 
             // opacity:0,
-            transformOrigin:"50% 50% 0",
+            // transformOrigin:"50% 50% 0",
             // scale: 50,
-            ease: 'easeInCubic',
-            top: '-800px'
+            ease: 'easeIn',
+            // height: 0
+            top: '-1300px'
         },'=1');  //fadeout logo
     });
     
