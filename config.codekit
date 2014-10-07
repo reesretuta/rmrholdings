@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/views\/contact.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/views\/events.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -397,6 +406,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/industries\/heros\/ag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111867,
+		"inputAbbreviatedPath": "\/images\/industries\/heros\/ag.jpg",
+		"outputAbbreviatedPath": "\/images\/industries\/heros\/ag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/industries\/heros\/ag.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -419,6 +439,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/industries\/heros\/industrial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131500,
+		"inputAbbreviatedPath": "\/images\/industries\/heros\/industrial.jpg",
+		"outputAbbreviatedPath": "\/images\/industries\/heros\/industrial.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/industries\/heros\/industrial.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -426,6 +457,17 @@
 		"initialSize": 8138,
 		"inputAbbreviatedPath": "\/images\/industries\/heros\/industrial.png",
 		"outputAbbreviatedPath": "\/images\/industries\/heros\/industrial.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/heros\/metals.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174214,
+		"inputAbbreviatedPath": "\/images\/industries\/heros\/metals.jpg",
+		"outputAbbreviatedPath": "\/images\/industries\/heros\/metals.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
