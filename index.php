@@ -14,11 +14,12 @@
     
     
     <link rel="shortcut icon" href="/media/images/favicon.ico">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script>
     <script src="/bower_components/angular/angular.js"></script>
     <script src="/bower_components/angular/angular-routes.js"></script>
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/imagesloaded/imagesloaded.pkgd.js"></script>
 </head>
 <body class="">
     
@@ -57,9 +58,9 @@
     
     <!-- main content wrapper end -->
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript">
     $(function(){
+
         $("nav a").on('click',function(){
             $("nav a").removeClass('current');
             $(this).addClass('current');
@@ -258,39 +259,45 @@
         $("body").removeClass();
         $("body").addClass('showIntroAnimation');
 
+
+        $("#logo0").imagesLoaded(startAnimation);
         
-        
-        var bg = $('.vegas-background2');
-        var logo = $('#logo0');
-        // TweenLite.to(bg, 2, {left:"542px", backgroundColor:"black", borderBottomColor:"#90e500", color:"white"});
-        var intro = new TimelineLite({
-            onComplete: function(){
-                $("#logo0").remove();
-                $('body').removeClass('showIntroAnimation');
+
+        function startAnimation(){
+            var bg = $('.vegas-background2');
+            var logo = $('#logo0');
+            // TweenLite.to(bg, 2, {left:"542px", backgroundColor:"black", borderBottomColor:"#90e500", color:"white"});
+            var intro = new TimelineLite({
+                onComplete: function(){
+                    $("#logo0").remove();
+                    $('body').removeClass('showIntroAnimation');
                 
-            }
-        });
-        //expand then fade
-        intro.to(bg,5 ,{
-          // opacity: 0,
-          scale: 2,
-          transformOrigin:"50% 50% 0",
-          // ease: 'easeInQuart',
-          ease: 'easeInCubic',
-          onComplete: function(){
-            $("body").addClass('showContent home');
-          }
-        })
-        .to(bg,1.5,{opacity:0},'-=1.2') //fadeout mountains
-        .to(logo,1.5,{
-            // scale: 15, 
-            // opacity:0,
-            // transformOrigin:"50% 50% 0",
-            // scale: 50,
-            ease: 'easeIn',
-            // height: 0
-            top: '-1300px'
-        },'=1');  //fadeout logo
+                }
+            });
+            //expand then fade
+            intro.to(bg,5 ,{
+              // opacity: 0,
+              scale: 2,
+              transformOrigin:"50% 50% 0",
+              // ease: 'easeInQuart',
+              ease: 'easeInCubic',
+              onComplete: function(){
+                $("body").addClass('showContent home');
+              }
+            })
+            .to(bg,1.5,{opacity:0},'-=1.2') //fadeout mountains
+            .to(logo,1.5,{
+                // scale: 15, 
+                // opacity:0,
+                // transformOrigin:"50% 50% 0",
+                // scale: 50,
+                ease: 'easeIn',
+                // height: 0
+                top: '-1300px'
+            },'=1');  //fadeout logo
+        }
+        
+        
     });
     
     
