@@ -29,15 +29,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/views\/home.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/home.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/app\/views\/operations.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -315,31 +306,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/style.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.scss",
-		"outputAbbreviatedPath": "\/css\/style.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/header3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -369,6 +335,17 @@
 		"initialSize": 28098,
 		"inputAbbreviatedPath": "\/images\/bg2.png",
 		"outputAbbreviatedPath": "\/images\/bg2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/homepage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 385187,
+		"inputAbbreviatedPath": "\/images\/homepage.jpg",
+		"outputAbbreviatedPath": "\/images\/homepage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -571,6 +548,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/oil.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 460982,
+		"inputAbbreviatedPath": "\/images\/oil.jpg",
+		"outputAbbreviatedPath": "\/images\/oil.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/shadow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -593,11 +581,186 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.php": {
+	"\/imagesloaded\/imagesloaded.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/imagesloaded.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/min\/imagesloaded-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/imagesloaded.pkgd.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/imagesloaded.pkgd.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/min\/imagesloaded.pkgd-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/README.md",
+		"outputAbbreviatedPath": "\/imagesloaded\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesloaded\/test\/append.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/append.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/append-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/basics.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/basics.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/basics-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/data-uri.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/data-uri.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/data-uri-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/img\/blue-shell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24555,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/img\/blue-shell.jpg",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/img\/blue-shell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesloaded\/test\/img\/bowser-jr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36987,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/img\/bowser-jr.jpg",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/img\/bowser-jr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesloaded\/test\/img\/thunder-cloud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24588,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/img\/thunder-cloud.jpg",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/img\/thunder-cloud.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imagesloaded\/test\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.php",
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/imagesloaded\/test\/jquery-fail.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/jquery-fail.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/jquery-fail-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/jquery-success.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/jquery-success.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/jquery-success-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/local-files.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/local-files.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/local-files-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/no-images.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/no-images.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/no-images-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/selector-string.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/selector-string.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/selector-string-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/single-element.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/single-element.js",
+		"outputAbbreviatedPath": "\/imagesloaded\/test\/min\/single-element-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/imagesloaded\/test\/tests.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/imagesloaded\/test\/tests.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
