@@ -26,7 +26,7 @@
         <img class="vegas-background2" src="/images/mountains/mid-west.jpg" />
     </div>
     <div id="header">
-        <a href="/"><img id="logo" src="/images/bg2.png" /></a>
+        <a href="/#home"><img id="logo" src="/images/bg2.png" /></a>
         <nav>
             <a href="/#home">HOME</a>
             <a href="/#about">ABOUT US</a>
@@ -48,10 +48,10 @@
     </div>
     <footer>
         <div class="left">
-            RMR © 2014
+            Rocky Mountain Resources © 2014
         </div>
         <div class="right">
-            9595 Wilshire Blvd Beverly Hills, CA 90212
+            <!-- 9595 Wilshire Blvd Beverly Hills, CA 90212 -->
         </div>
     </footer>
     
@@ -175,6 +175,12 @@
         removeAnimation();
     });
     
+    app.controller('aboutController',function($rootScope, $scope, $stateParams){
+        removeAnimation();
+    });
+    
+    
+    
 
     
     
@@ -183,19 +189,19 @@
         switch ($stateParams.id) {
         case 'chad':
             $scope.name = 'Chad Brownstein';
-            $scope.profileUrl = 'http://www.whitedeerenergy.com/wp/wp-content/uploads/Edelman_T_LADD0164_web-170x238.jpg';
+            $scope.profileUrl = '/images/bio/Chad.jpg';
             $scope.position = 'Chief Executive Officer';
             $scope.bio = 'Chad Brownstein is the Chief Executive Officer of RMR where he is responsible for the corporate strategy and board oversight of all corporate investments.  Mr. Brownstein, born in Denver, Colorado, has been an active member of the resource community for 18 years having sold multiple hydrocarbon and mining companies. Mr. Brownstein is the Co-Founder, Lead Independent Director, and Vice Chairman for the Banc of California (“BANC”).  BANC is the fastest growing Southern California depository institution having acquired five distinct savings institutions since 2009.  Today BANC has over $5 billion in deposits, an additional $5 billion in assets under management culminating in California’s 9th largest public bank.  Previously Mr. Brownstein was a principal member of Crescent Capital Group focused on Special Situations (formerly Trust Company of the West Leveraged Finance Group). He was a Senior Advisor at Knowledge Universe Ltd., where he focused on turnaround operations and private equity investing. Prior to that, he was a Partner at ITU Ventures making venture and growth investments with a specialization in corporate strategy where he founded companies and created exits to companies including Nokia, Weyerhaeuser, AMD, and multiple public market exits.  Mr. Brownstein began his career at Donaldson Lufkin & Jenrette in the Merchant and Investment Banking divisions.  Mr. Brownstein also is a member of the Cedars Sinai Board of Governors and has served as past capital Chairman for the board of Los Angeles Conservation Corps. Mr. Brownstein attended Columbia Business School and received his B.A. from Tulane University.';
             break;
         case 'gregory':
             $scope.name = 'Gregory Dangler ';
-            $scope.profileUrl = 'http://www.whitedeerenergy.com/wp/wp-content/uploads/Edelman_T_LADD0164_web-170x238.jpg';
+            $scope.profileUrl = '/images/bio/Greg.jpg';
             $scope.position = 'President and Chief Financial Officer';
             $scope.bio = 'Gregory Dangler is the President and Chief Financial Officer of RMR where he is responsible for the day-to-day operations, including all business units, financial and corporate strategies.  Mr. Dangler has a background in private equity investing, development of large-scale technical infrastructure projects, and the financing and management of international growth companies.  Previously, Mr. Dangler served as Chief Financial Officer and Chief Restructuring Officer of a public natural resource development company in which he took the company public and raised over $120 million in institutional capital.  Prior to that, he served as Chairman and Chief Executive Officer of a technology and telecommunications company. As the Chief Executive, he raised institutional capital and expanded its global presence with operating interests in Africa and South America.  Prior to that, Mr. Dangler was an associate with ITU Ventures, a leading private equity and venture capital firm focused on growth stage investments.  While with ITU, Mr. Dangler executed private and public equity transactions, directed M&A activity, and provided strategic support to portfolio companies.  Mr. Dangler began his professional career as an Air Force officer managing complex and large-scale infrastructure projects.  Mr. Dangler received a BS in Mechanical Engineering from the United States Air Force Academy and an MBA in Finance and Economics from the University of Southern California\'s Marshall School of Business.';
             break;
         case 'barry':
             $scope.name = 'Dr. Barry Munitz';
-            $scope.profileUrl = 'http://www.whitedeerenergy.com/wp/wp-content/uploads/Edelman_T_LADD0164_web-170x238.jpg';
+            $scope.profileUrl = '/images/bio/Barry.jpg';
             $scope.position = 'Founding Partner';
             $scope.bio = 'Dr. Barry Munitz is a founding partner of RMR.  Dr. Munitz served as President and CEO of the J. Paul Getty Trust from 1997 to 2006 where he was responsible for the investment portfolio, two museums (Brentwood and Malibu), the Conservation and Research Institutes, the philanthropic foundation, and all education outreach programs. From 1991 to 1997, he served as Chancellor of the California State University (CSU) – a twenty-three-campus system which is the largest senior university in the United States. Prior to that role, Dr. Munitz was Vice Chairman of the publicly held company (MAXXAM) and president of the private company which was its major shareholder (Federated Development) where he was involved for a decade in their natural resources activity, as well as timber, banking, energy and real estate.  During the past decades, he served as a Trustee of Princeton University, the Seattle Art Museum, and the Courtauld Institute in London, as well as a corporate director at SunAmerica and Kaufman & Broad. Dr. Munitz currently chairs the board of Sierra Nevada College, is president of the Cotsen Foundation, a governor of the three Eli and Edythe Broad Family Foundations and a corporate director at SallieMae.  Dr. Munitz received a Bachelor\'s degree in Classics and Comparative Literature from Brooklyn College, and received a Masters and a Ph.D. from Princeton University. Dr. Munitz is a fellow of the American Academy of Arts and Sciences and holds honorary degrees from Whittier College, Claremont University, the California State University, the University of Southern California, Notre Dame and the University of Edinburgh.';
             break;
@@ -207,7 +213,7 @@
             break;
         case 'jonathan':
             $scope.name = 'Jonathan Ma';
-            $scope.profileUrl = 'http://www.whitedeerenergy.com/wp/wp-content/uploads/Edelman_T_LADD0164_web-170x238.jpg';
+            $scope.profileUrl = '/images/bio/Jon.jpg';
             $scope.position = 'Associate';
             $scope.bio = 'Jonathan Ma is an Associate at RMR where he is responsible for all M&A activity including origination, due diligence, strategy and financing. Prior to joining RMR, Mr. Ma was an Associate at the CIM Group, an infrastructure investment firm with $17 billion in assets under management. In his role, he was responsible for the underwriting and due diligence process of the firm’s infrastructure and industrial property acquisitions, marketing of dispositions, and asset management of the firm’s opportunistic and core portfolio. While at CIM, Mr. Ma closed over $1 billion in total transactions across multiple asset classes. Prior to joining CIM in 2012, he worked at Crescent Capital Group (formerly Trust Company of the West Leveraged Finance Group) focused on corporate distressed debt and special situations financing.  Mr. Ma started his career in the Financial Sponsors Group of Lehman Brothers’ Investment Banking Division (subsequently Barclays Capital Investment Bank).  Mr. Ma graduated with a B.S. in Business-Economics from the University of California, Los Angeles';
             break;

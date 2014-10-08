@@ -113,7 +113,7 @@ p {
   border-bottom: none; }
   #wrap aside {
     float: left;
-    width: 230px;
+    width: 190px;
     display: block;
     padding: 40px; }
     #wrap aside h3 {
@@ -150,14 +150,15 @@ p {
         margin-bottom: 20px; }
   #wrap section {
     float: left;
-    width: 585px;
+    width: 635px;
     padding-bottom: 80px;
     padding-top: 40px; }
     #wrap section p {
       text-align: justify; }
     #wrap section .bio img {
       float: left;
-      margin: 0 20px 20px 0; }
+      margin: 0 20px 10px 0;
+      width: 250px; }
     #wrap section .bio h3 {
       margin-bottom: 10px;
       font-style: italic; }
