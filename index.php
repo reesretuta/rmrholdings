@@ -78,6 +78,7 @@
     });
     var app = angular.module('rockyMountainApp',['ui.router']);
     
+    
     // app.use(express.static(__dirname + '/app'));
     app.config(function($stateProvider){
         $stateProvider
@@ -86,17 +87,17 @@
         .state('animation',
             {url: '', templateUrl: 'app/views/home.html', controller: 'introAnimationController'})
         .state('team', 
-            {url: '/team', templateUrl: 'app/views/team/team.html'})
+            {url: '/team', templateUrl: 'app/views/team/team.html', controller: 'teamController'})
         .state('team.item', 
             {url: '/:id' , templateUrl: 'app/views/team/employee.html', controller: 'teamController'}) //this state inherits the team state URL of /team
         .state('about', 
-            {url: '/about', templateUrl: 'app/views/about/about.html'})
+            {url: '/about', templateUrl: 'app/views/about/about.html', controller: 'aboutController'})
         .state('contact', 
-            {url: '/contact', templateUrl: 'app/views/contact.html'})
+            {url: '/contact', templateUrl: 'app/views/contact.html', controller: 'contactController'})
         .state('operations',
-            {url: '/operations', templateUrl: 'app/views/operations/operations.html'})
+            {url: '/operations', templateUrl: 'app/views/operations/operations.html', controller: 'operationsController'})
         .state('operations.type',
-            {url: '/:id', controller: 'operationsController', templateUrl: 'app/views/operations/industry.html'});
+            {url: '/:id', controller: 'operationsController', templateUrl: 'app/views/operations/industry.html', controller: 'operationsController'});
             
         // $routeProvider.when('/',
         // {
@@ -130,12 +131,13 @@
 
     
     app.controller('operationsController',function($rootScope, $scope, $stateParams){
+        removeAnimation();
+        
         switch ($stateParams.id) {
         case 'agriculture':
             $scope.title = 'Agriculture';
             $scope.imageUrl = '/images/industries/heros/ag.jpg';
             $scope.description = 'RMR Agriculture represents a long-term commitment and support of the North American agriculture industry.  RMR actively pursues production assets including live stock and commercial farming operations.  Additionally, RMR Agriculture believes there’s unlocked value found within regional and local agribusinesses servicing community farmers and smaller commercial operators.  Those businesses include distributors of seed, fertilizer and specialty chemicals, processing mills, grain elevators, and seed manufacturers.  RMR leverages long-standing local relationships combined with an institutional oversight ensuring customer satisfaction and competitively priced products and services.';
-            
             break;
         case 'energy':
             $scope.title = 'Energy';
@@ -154,11 +156,30 @@
         break;
     
         }
-        $('body').removeClass();
+
         $('body').addClass($stateParams.id);
       
     });
+    
+    function removeAnimation(){ 
+        $("#logo0").remove(); 
+        $('body').addClass('showContent');
+        
+    }
+    
     app.controller('teamController',function($rootScope, $scope, $stateParams){
+        removeAnimation();
+    });
+    
+    app.controller('contactController',function($rootScope, $scope, $stateParams){
+        removeAnimation();
+    });
+    
+
+    
+    
+    app.controller('teamController',function($rootScope, $scope, $stateParams){
+        removeAnimation();
         switch ($stateParams.id) {
         case 'chad':
             $scope.name = 'Chad Brownstein';
@@ -220,14 +241,17 @@
     });
     
     app.controller('homepageController', function($scope){
-        $("body").addClass('home');
-        $("body").removeClass('introAnimation');
+        $("body").removeClass();
+        $("body").addClass('home').addClass('showContent');
     });
     
+    
+    
+    
     app.controller('introAnimationController', function($scope){
-        
-        $("body").addClass('home');
-        $("body").addClass('introAnimation');
+        $("body").removeClass();
+        $("body").addClass('showIntroAnimation');
+
         
         
         var bg = $('.vegas-background2');
@@ -236,7 +260,7 @@
         var intro = new TimelineLite({
             onComplete: function(){
                 $("#logo0").remove();
-                $("body").removeClass('introAnimation').addClass('home');
+                $('body').removeClass('showIntroAnimation');
                 
             }
         });
@@ -247,9 +271,9 @@
           transformOrigin:"50% 50% 0",
           // ease: 'easeInQuart',
           ease: 'easeInCubic',
-          // onStart: function(){
-//             $("#questions").fadeOut(1000);
-//           }
+          onComplete: function(){
+            $("body").addClass('showContent home');
+          }
         })
         .to(bg,1.5,{opacity:0},'-=1.2') //fadeout mountains
         .to(logo,1.5,{

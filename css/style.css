@@ -3,10 +3,10 @@ a {
   color: #333; }
 
 img.vegas-background2, #logo0 {
-  display: none !important; }
-
-img.vegas-background2, #logo0 {
   display: none; }
+
+#header, #wrap, footer {
+  display: none !important; }
 
 #logo0 {
   background: url("/images/bg2.png") #fff center center no-repeat !important;
@@ -25,10 +25,13 @@ img.vegas-background2, #logo0 {
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; }
 
-body.introAnimation {
+body.showIntroAnimation {
   overflow: hidden; }
-  body.introAnimation img.vegas-background2, body.introAnimation #logo0 {
+  body.showIntroAnimation img.vegas-background2, body.showIntroAnimation #logo0 {
     display: block !important; }
+
+body.showContent #header, body.showContent #wrap, body.showContent footer {
+  display: block !important; }
 
 #industry img {
   width: 100%;

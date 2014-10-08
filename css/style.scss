@@ -4,14 +4,12 @@ a{
 }
 
 img.vegas-background2, #logo0{
-  display:none !important;
-}
-
-img.vegas-background2, #logo0{
   display:none;
 }
 
-
+#header, #wrap, footer{
+  display:none !important;
+}
 
 #logo0{
   background:url('/images/bg2.png') #fff center center no-repeat !important;
@@ -36,9 +34,15 @@ body{
 
 
 
-body.introAnimation{
+body.showIntroAnimation{
   overflow:hidden;
   img.vegas-background2, #logo0{
+    display:block !important;
+  }
+}
+
+body.showContent{
+  #header, #wrap, footer{
     display:block !important;
   }
 }
