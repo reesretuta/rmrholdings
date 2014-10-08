@@ -168,9 +168,9 @@
         
     }
     
-    app.controller('teamController',function($rootScope, $scope, $stateParams){
-        removeAnimation();
-    });
+    // app.controller('teamController',function($rootScope, $scope, $stateParams){
+//         removeAnimation();
+//     });
     
     app.controller('contactController',function($rootScope, $scope, $stateParams){
         removeAnimation();
@@ -231,7 +231,7 @@
         case 'antonio':
             $scope.name = 'Antonio Villaraigosa';
             $scope.position = 'Advisor';
-            $scope.bio = 'From 2005 to 2013, Mayor Villaraigosa served as the 41st Mayor of Los Angeles, California. Prior to being elected Mayor, he was a member of the California State Assembly from 1994 to 2000, the Democratic leader of the Assembly from 1996 to 1998, and the Speaker of the California State Assembly from 1998 to 2000. After leaving the State Assembly, due to term limits, he was elected to the Los Angeles City Council from 2003 until he was elected Mayor in 2005. Mayor Villaraigosa also serves as an advisor to the Banc of California. He holds a Bachelor of Arts degree in History from UCLA and is a graduate of the People’s College of Law.';
+            $scope.bio = 'Antonio Villaraigosa is a respected voice in American politics, a prominent policymaker and savvy strategist with a keen understanding of America’s mainstream and emerging  communities.  He has more than 20 years of leadership experience at the highest levels of state and municipal government as well as business, political, educational and nonprofit organizations. In 2013 Mr. Villaraigosa finished his two terms as Mayor of the City of Los Angeles after eight years of major strides in transportation, crime reduction, infrastructure, energy and resource sustainability, right‐sizing government, business development and education reform. Prior to his election as Mayor, Mr. Villaraigosa served as a member of the Los Angeles City Council from 2003 to 2005, where he launched the city’s first program to reduce the cost of prescription medicine for residents, led the Council’s efforts on transportation issues, created new parks, settled two crippling strikes, protected arts funding and worked to expand  constituent services in a district of more than a quarter million people. From 1994 through 2000, Mr. Villaraigosa served in the California State Assembly as Democratic  Whip, Majority Leader and Speaker of the Assembly.  Mr. Villaraigosa also has served in academia, currently as a fellow at Harvard University and a professor in public policy at the University of Southern California. Additionally he works in the private sector with Banc of California and Edelman Public Relations, amongst others, and serves on the McGraw Hill Global Education board of directors. He holds a B.A. in History from UCLA and a J.D. from the Peoples College of Law.';
             break;
         case 'arturo':
             $scope.name = 'Arturo Sarukhan';
@@ -242,7 +242,12 @@
             $scope.name = 'Andy Peltz';
             $scope.position = 'Advisor';
             $scope.bio = 'Mr. Peltz is a Partner at Peltz Capital Management. Prior to forming PCM, Mr. Peltz worked at Triarc Companies, Inc. where he held the titles of Vice President, Investment Services and as an Associate of Corporate Development. He was primarily responsible for the day-to-day oversight of Triarc’s $650 million plus investment portfolio. Prior to Triarc, Mr. Peltz was Senior Investment Banker at Credit Agricole Lazard Financial Products Bank, which is a joint venture between Lazard Freres & Co. and Credit Agricole specializing in structured finance transactions. He also served as a marketing associate for Lazard Asset Management, a division of Lazard Freres & Co., where he marketed their vast array of fixed income, equality and alternative investment products. Mr. Peltz holds a BFA from New York University.';
-            break;   
+            break;
+        case 'reed':
+            $scope.name = 'Reed Dickens';
+            $scope.position = 'Advisor';
+            $scope.bio = 'After spending the first five years of his career in government politics as a White House Assistant Press Secretary and in presidential politics as a campaign spokesperson, Mr. Dickens has spent the last decade building a diverse slate of consumer brands and founding four companies. Mr. Dickens currently serves as the Co-Founder and CEO of American Made Products, a platform created to acquire or partner with small U.S. manufacturers to expand their capacity through growth capital or government credits. He also currently serves in the following roles: Co-Founder and Executive Chariman of EQtainment, an educational media platform, Founder of Dickens Capital Group, which holds minority stakes in early stage brands, board member for Sage Beverages, and a Senior Advisor to TPG Growth\'s portfolio of growth companies.  From 2009 to 2011, Mr. Dickens served as the Chairman and CEO of Marucci Sports, which Forbes Magazine recognized as one of the most promising growth brands in America. His effort to diversify the Major League Baseball bat company into all product categories resulted in exponential growth during his tenure. Mr. Dickens still serves as the Chairman of the Board and is actively involved in corporate development.  From 2004 to 2008, he served as the CEO of Outside Eyes, a boutique branding and crisis management agency that he still owns and where he serves as a Senior Advisor.  Dickens leverages the firm to add value to his portfolio of early stage consumer brands, most recently building Lucky Buddha Beer and Bracero Tequila to national recognition and distribution.';
+            break;
         default:
         }
     });
