@@ -351,6 +351,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg2-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17029,
+		"inputAbbreviatedPath": "\/images\/bg2-small.png",
+		"outputAbbreviatedPath": "\/images\/bg2-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -417,6 +428,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bio\/Isaac.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117089,
+		"inputAbbreviatedPath": "\/images\/bio\/Isaac.jpg",
+		"outputAbbreviatedPath": "\/images\/bio\/Isaac.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bio\/Jon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -457,6 +479,28 @@
 		"initialSize": 7694,
 		"inputAbbreviatedPath": "\/images\/industries\/ag.png",
 		"outputAbbreviatedPath": "\/images\/industries\/ag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/bg2-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16919,
+		"inputAbbreviatedPath": "\/images\/industries\/bg2-small.png",
+		"outputAbbreviatedPath": "\/images\/industries\/bg2-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/industries\/bg2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45198,
+		"inputAbbreviatedPath": "\/images\/industries\/bg2.png",
+		"outputAbbreviatedPath": "\/images\/industries\/bg2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
