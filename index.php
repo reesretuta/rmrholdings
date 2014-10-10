@@ -27,7 +27,7 @@
         <img class="vegas-background2" src="/images/mountains/mid-west.jpg" />
     </div>
     <div id="header">
-        <a href="/#home"><img id="logo" src="/images/bg2.png" /></a>
+        <a href="/#home"><img id="logo" src="/images/bg2-small.png" /></a>
         <nav>
             <a href="/#home">HOME</a>
             <a href="/#about">ABOUT US</a>
