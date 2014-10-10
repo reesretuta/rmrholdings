@@ -197,7 +197,7 @@
         case 'gregory':
             $scope.name = 'Gregory Dangler ';
             $scope.profileUrl = '/images/bio/Greg.jpg';
-            $scope.position = 'President and Chief Financial Officer';
+            $scope.position = 'President';
             $scope.bio = 'Gregory Dangler is the President of RMR where he is responsible for the day-to-day operations of all business units. Mr. Dangler has an extensive background in the development of large-scale infrastructure projects. Previously, Mr. Dangler served as Chief Restructuring Officer of a natural resource development company for which he raised over $120 million in institutional capital. Prior to that, Mr. Dangler founded an international technology and telecommunications company. As the Chief Executive, he raised institutional capital and expanded its global presence with operating interests in Africa and South America. Prior to that, Mr. Dangler was an associate with ITU Ventures, a leading private equity and venture capital firm focused on growth stage investments. While with ITU, Mr. Dangler executed private and public equity transactions, directed M&A activity, and provided strategic support to portfolio companies. Mr. Dangler began his professional career as an Air Force officer managing complex infrastructure projects. Mr. Dangler received a BS in Mechanical Engineering from the United States Air Force Academy and an MBA in Finance and Economics from the University of Southern California\'s Marshall School of Business.';
             break;
         case 'barry':
@@ -208,7 +208,7 @@
             break;
         case 'isaac':
             $scope.name = 'Isaac Morgan';
-            $scope.profileUrl = 'http://www.whitedeerenergy.com/wp/wp-content/uploads/Edelman_T_LADD0164_web-170x238.jpg';
+            $scope.profileUrl = '/images/bio/Isaac.jpg';
             $scope.position = 'Operating Partner';
             $scope.bio = 'Isaac Morgan is an Operating Partner at RMR where he is responsible for due diligence of all acquisitions and operational integration. Mr. Morgan has a background in public accounting, large public scale mining operations and natural resource project development. Mr. Morgan has provided consulting services to numerous natural resource companies in managing operations, project finance preparation, and internal reporting. Previously, Mr. Morgan served as Corporate Controller of a public natural resource development company in which he worked on the preparation of the prefeasibility study, managed public company financial statement filings, and led strategic teams regarding ERP selection, budgeting, and public financings. Prior to that, Mr. Morgan worked at Freeport McMoRan Copper & Gold, Inc. where he was responsible for corporate consolidation of North and South American entities to the parent, played a key role in the company’s SAP implementation, and prepared internal reporting for high level management. Prior to that, Mr. Morgan worked as a consultant on the Cloud Peak Energy divesture from its parent, Rio Tinto, by assisting internal management to prepare for its initial public offering and liaison with external auditors. Mr. Morgan began his professional career at KPMG, LLP as a senior auditor working on Fortune 500 companies and small private companies. Mr. Morgan received a BS in Accounting from the University of Arizona and is a licensed CPA in Colorado.';
             break;
