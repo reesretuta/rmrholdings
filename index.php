@@ -123,8 +123,6 @@
     app.run(function($rootScope){
         $rootScope.$on('$stateChangeStart', 
             function(event, toState, toParams, fromState, fromParams){ 
-                console.log("State Change: transition begins!");
-                console.log(toParams);
             });
     });
     
