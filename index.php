@@ -1,4 +1,4 @@
-<!-- site designed by lionstepmedia.com-->
+<!-- site designed by lionstepmedia.com rees.retuta@gmail.com-->
 <!doctype html>
 <html class="no-js" lang="en" ng-app="rockyMountainApp">
 <head>
