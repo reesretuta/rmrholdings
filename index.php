@@ -142,7 +142,7 @@
             break;
         case 'energy':
             $scope.title = 'Energy';
-            $scope.imageUrl = '/images/oil.jpg';
+            $scope.imageUrl = '/images/industries/heros/energy.jpg';
             $scope.description = 'RMR Energy is the the genesis and foundation of RMR Holdings.  Having historically been focused in the American Rockies, RMR Energy seeks unique off-market acquisitions poised for long-term value creation.  RMR Energy owns and operates assets across the spectrum with an appetite for conventional upstream assets, non-operated resource plays, and legacy non-core corporate divestitures.  Cascading down the value chain, RMR Energy discovers under utilized infrastructure assets and applies its proven track record of successful value investing, operational excellence, and unique capital solutions.  RMR actively pursues raw development scenarios, niche or specialty refineries, and regional pipeline and gathering systems.';
         break;
         case 'industrials':
