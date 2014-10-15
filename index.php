@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="en" ng-app="rockyMountainApp">
 <head>
-
+    <base href="/" />
     <meta charset="UTF-8">
     <title>Rocky Mountain Resources</title>
     
@@ -31,6 +31,7 @@
       ga('create', 'UA-55760717-1', 'auto');
       ga('send', 'pageview');
     </script>
+    
 </head>
 <body class="">
     
@@ -91,12 +92,12 @@
     
     
     // app.use(express.static(__dirname + '/app'));
-    app.config(function($stateProvider){
+    app.config(function($stateProvider, $locationProvider){
         $stateProvider
         .state('home', 
             {url: '/home', templateUrl: 'app/views/home.html', controller: 'homepageController'})
         .state('animation',
-            {url: '', templateUrl: 'app/views/home.html', controller: 'introAnimationController'})
+            {url: '/', templateUrl: 'app/views/home.html', controller: 'introAnimationController'})
         .state('team', 
             {url: '/team', templateUrl: 'app/views/team/team.html', controller: 'teamController'})
         .state('team.item', 
@@ -109,6 +110,9 @@
             {url: '/operations', templateUrl: 'app/views/operations/operations.html', controller: 'operationsController'})
         .state('operations.type',
             {url: '/:id', controller: 'operationsController', templateUrl: 'app/views/operations/industry.html', controller: 'operationsController'});
+            
+            
+            $locationProvider.html5Mode(true);
             
         // $routeProvider.when('/',
         // {
