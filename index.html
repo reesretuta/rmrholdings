@@ -45,13 +45,20 @@
             <a href="/team">TEAM</a>
             <a href="/operations">OPERATIONS</a>
             <a href="/contact " class="last">CONTACT</a>
-            <!-- <a href="/#agriculture">AGRICULTURE</a>
-            <a href="/#energy">ENERGY</a>
-            <a href="/#industrials">INDUSTRIALS</a>
-            <a href="/#metals" class="last">METALS & MINING</a> -->
             <img id="shadow" src="/images/shadow.png" />
-            
         </nav>
+        
+        <div id="nav-mobile">
+          <div class="label">&equiv; MENU &equiv;</div>
+          <div class="nav">
+            <a href="/#home">HOME</a>
+            <a href="/#about">ABOUT US</a>
+            <a href="/#team">TEAM</a>
+            <a href="/#operations">OPERATIONS</a>
+            <a href="/#contact " class="last">CONTACT</a>
+          </div>
+
+        </div>
     </div>
     <div id="wrap" class="clearfix">
         <div ui-view>
@@ -86,6 +93,18 @@
             $(this).toggleClass('hover');
             $(this).css('background-color', 'transparent');
           });
+          
+        $("#nav-mobile .label").on('click',function(){
+          $(".nav").show();
+          
+        });
+          
+        $("#nav-mobile .nav").on('click',function(){
+          
+          $(".nav").hide();
+          
+        });
+          
     });
     var app = angular.module('rockyMountainApp',['ui.router']);
     
