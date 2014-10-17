@@ -34,6 +34,9 @@ img.vegas-background2, #logo0{
   overflow:hidden;
   z-index:999999999;
   border-bottom:1px solid #000;
+  @include breakpoint('mobile'){
+    display:none;
+  }
   .vegas-background2{
     position:absolute;
     height:100%;

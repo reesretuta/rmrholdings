@@ -17,6 +17,9 @@ img.vegas-background2, #logo0 {
   overflow: hidden;
   z-index: 999999999;
   border-bottom: 1px solid #000; }
+  @media screen and (max-width: 420px) {
+    #logo0 {
+      display: none; } }
   #logo0 .vegas-background2 {
     position: absolute;
     height: 100%;
