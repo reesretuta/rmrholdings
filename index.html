@@ -83,6 +83,7 @@
       var isMobile = window.matchMedia("only screen and (max-width: 420px)");
 
       if (isMobile.matches) {
+        alert('mobile');
         $("#logo0").remove();
         $('body').removeClass('showIntroAnimation');
         $("body").addClass('showContent home');
