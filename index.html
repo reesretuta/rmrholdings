@@ -79,19 +79,13 @@
     <!-- main content wrapper end -->
 
     <script type="text/javascript">
+
+    var isMobile = window.matchMedia("only screen and (max-width: 420px)");
+    
     $(function(){
-      alert('here');
       
-      alert(window.matchMedia);
-      
-      var isMobile = window.matchMedia("only screen and (max-width: 420px)");
-      alert('mobilentest');
-      if (isMobile.matches) {
-        alert('mobile');
-        $("#logo0").remove();
-        $('body').removeClass('showIntroAnimation');
-        $("body").addClass('showContent home');
-      }
+
+
       
       
         $("nav a").on('click',function(){
@@ -307,11 +301,17 @@
     
     app.controller('introAnimationController', function($scope){
         
-        $("body").removeClass();
-        $("body").addClass('showIntroAnimation');
-
-
-        $("#logo0").imagesLoaded(startAnimation);
+      if (isMobile.matches) {
+     
+        $("#logo0").remove();
+        $('body').removeClass('showIntroAnimation');
+        $("body").addClass('showContent home');
+      }else{
+          $("body").removeClass();
+          $("body").addClass('showIntroAnimation');
+          $("#logo0").imagesLoaded(startAnimation);
+      }
+       
         
 
         function startAnimation(){
