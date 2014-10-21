@@ -400,7 +400,8 @@ p{
       p{
         text-align:justify;
         @include breakpoint('mobile'){
-          padding:21px;
+          text-align:left;
+          padding: 5px 21px;
         }
         
       }

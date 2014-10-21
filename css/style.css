@@ -278,7 +278,8 @@ p {
       text-align: justify; }
       @media screen and (max-width: 420px) {
         #wrap section .bio p {
-          padding: 21px; } }
+          text-align: left;
+          padding: 5px 21px; } }
   #wrap .fullWidth img {
     margin: 0 15px 15px 0; }
   #wrap .fullWidth #line {
