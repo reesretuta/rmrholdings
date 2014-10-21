@@ -103,7 +103,7 @@ p{
   padding-top:50px;
   margin-top:0;
   @include breakpoint('mobile'){
-    padding-top:0;
+    padding-top:15px;
   }
   img#logo{
     width:300px;
@@ -294,28 +294,6 @@ p{
       }      
     }
     
-    ul.industriesList-mobile{
-      display:none;
-      @include breakpoint('mobile'){
-        display:block;
-        margin:0 auto;
-        width:200px;
-        border:none;
-        text-align:justify;
-          li{
-            border:none;
-            margin:0;
-            
-            
-            
-          }
-        
-      }
-      
-    }
-    
-    
-    
     
     ul{
       border-right:1px double #ccc;
@@ -332,6 +310,27 @@ p{
         }
       }
     }
+
+    ul.industriesList-mobile{
+      display:none;
+      @include breakpoint('mobile'){
+        display:block;
+        margin:0 auto;
+        width:250px;
+        border:none;
+        text-align:justify;
+          li{
+            width:122px;
+            float:left;
+            border:none;
+            margin:0;
+          }
+        
+      }
+      
+    }
+
+
   }
   
   #hero-wrap{
