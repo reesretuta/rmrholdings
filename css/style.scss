@@ -102,6 +102,9 @@ p{
   text-align:center;
   padding-top:50px;
   margin-top:0;
+  @include breakpoint('mobile'){
+    padding-top:0;
+  }
   img#logo{
     width:300px;
     margin:0 auto 15px auto; 
@@ -128,6 +131,9 @@ p{
         width:100%;
         position:absolute;
         transform: translateX(-50%) translateY(100%);
+        -ms-transform: translate(-50%,100%); /* IE 9 */
+       	-webkit-transform: translate(-50%,100%); /* Chrome, Safari, Opera */
+
         left:50%;
         z-index:10;
         bottom:-1px;
