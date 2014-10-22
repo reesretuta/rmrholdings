@@ -291,6 +291,9 @@ p {
     text-align: justify; }
   #wrap .fullWidth iframe {
     width: 100% !important; }
+    @media screen and (max-width: 420px) {
+      #wrap .fullWidth iframe {
+        display: none; } }
   #wrap h3 {
     font-size: bold;
     font-size: 14pt;
