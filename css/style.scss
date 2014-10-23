@@ -238,7 +238,7 @@ p{
   border-bottom:none;
   
   @include breakpoint('mobile'){
-    width: 85%;
+    width: 90%;
     padding: 10px;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -265,6 +265,17 @@ p{
       width:100%;
       padding:0;
     }
+    
+    &.team-side-bar{
+      li{
+        @include breakpoint('mobile'){
+          width:45%;
+          text-align:center;
+        }
+        
+      }
+    }
+    
     h3{
       margin-bottom:20px;
       font-style:italic;
@@ -318,12 +329,13 @@ p{
         margin:0 auto;
         width:250px;
         border:none;
-        text-align:justify;
+        
           li{
             width:122px;
             float:left;
             border:none;
             margin:0;
+            text-align:center;
           }
         
       }
@@ -421,6 +433,9 @@ p{
     .text-wrap{
       padding:20px;
       text-align:justify;
+      @include breakpoint('mobile'){
+        padding:0;
+      }
       
     }
     
