@@ -65,6 +65,9 @@ p {
   #header img#logo {
     width: 300px;
     margin: 0 auto 15px auto; }
+    @media screen and (max-width: 420px) {
+      #header img#logo {
+        width: 200px; } }
   #header #nav-mobile {
     display: none; }
     @media screen and (max-width: 420px) {

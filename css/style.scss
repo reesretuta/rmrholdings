@@ -108,6 +108,9 @@ p{
   img#logo{
     width:300px;
     margin:0 auto 15px auto; 
+    @include breakpoint('mobile'){
+      width:200px;
+    }
   }
   
   
