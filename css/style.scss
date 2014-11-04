@@ -530,12 +530,21 @@ body{
     
 }
 
+
+
+
 .imageFrame{
 
   padding: 7px;
   background:#fff;
   @include breakpoint('mobile'){
     padding: 0;
+  }
+}
+
+#video{
+  img{
+    width:420px;
   }
 }
 
@@ -564,3 +573,4 @@ body{
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+

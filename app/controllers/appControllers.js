@@ -125,6 +125,16 @@ controllers.controller('teamController',function($rootScope, $scope, $stateParam
 controllers.controller('homepageController', function($scope){
     $("body").removeClass();
     $("body").addClass('home').addClass('showContent');
+    
+    
+    
+    $("#video img").on('click',function(){
+      
+      var iframe = $(this).siblings('iframe');
+      var url = iframe.attr('data-url');
+      iframe.attr('src',url);
+      $(this).remove();
+    });
 });
 
 

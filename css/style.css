@@ -359,6 +359,9 @@ body #header {
     .imageFrame {
       padding: 0; } }
 
+#video img {
+  width: 420px; }
+
 .column {
   -webkit-column-count: 2;
   /* Chrome, Safari, Opera */
