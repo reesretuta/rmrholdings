@@ -236,7 +236,12 @@ p{
     font-size: 19px;
     letter-spacing: 0.1em;
   }
+  img{
+    width:560px;
+    cursor:pointer;
+  }
 }
+
 
 #wrap{
   width: 960px;
@@ -551,11 +556,7 @@ body{
   }
 }
 
-#video{
-  img{
-    width:420px;
-  }
-}
+
 
 
 .column{

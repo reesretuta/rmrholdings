@@ -167,6 +167,9 @@ p {
     font-weight: normal;
     font-size: 19px;
     letter-spacing: 0.1em; }
+  #video img {
+    width: 560px;
+    cursor: pointer; }
 
 #wrap {
   width: 960px;
@@ -366,9 +369,6 @@ body #header {
   @media screen and (max-width: 420px) {
     .imageFrame {
       padding: 0; } }
-
-#video img {
-  width: 420px; }
 
 .column {
   -webkit-column-count: 2;
