@@ -222,10 +222,19 @@ p{
 }
 
 .home #wrap{
-  height:401px;
+  height:810px;
   @include breakpoint('mobile'){
     height:auto;
-    
+  }
+}
+
+#video{
+  margin:18px 0 0 22px;
+  div{
+    font-family: "Times New Roman",Georgia,Serif !important;
+    font-weight: normal;
+    font-size: 19px;
+    letter-spacing: 0.1em;
   }
 }
 

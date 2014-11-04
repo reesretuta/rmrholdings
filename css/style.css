@@ -155,10 +155,18 @@ p {
       z-index: 2; }
 
 .home #wrap {
-  height: 401px; }
+  height: 810px; }
   @media screen and (max-width: 420px) {
     .home #wrap {
       height: auto; } }
+
+#video {
+  margin: 18px 0 0 22px; }
+  #video div {
+    font-family: "Times New Roman",Georgia,Serif !important;
+    font-weight: normal;
+    font-size: 19px;
+    letter-spacing: 0.1em; }
 
 #wrap {
   width: 960px;
