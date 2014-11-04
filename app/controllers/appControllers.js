@@ -126,17 +126,19 @@ controllers.controller('homepageController', function($scope){
     $("body").removeClass();
     $("body").addClass('home').addClass('showContent');
     
+    videoClickHandler();
     
     
-    $("#video img").on('click',function(){
-      
-      var iframe = $(this).siblings('iframe');
-      var url = iframe.attr('data-url');
-      iframe.attr('src',url);
-      $(this).remove();
-    });
 });
 
+function videoClickHandler(){
+  $("#video img").on('click',function(){
+    var iframe = $(this).siblings('iframe');
+    var url = iframe.attr('data-url');
+    iframe.attr('src',url);
+    $(this).remove();
+  });
+}
 
 
 
@@ -189,5 +191,5 @@ controllers.controller('introAnimationController', function($scope){
         },'=1');  //fadeout logo
     }
     
-    
+    videoClickHandler();
 });
