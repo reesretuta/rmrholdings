@@ -237,8 +237,13 @@ p{
     letter-spacing: 0.1em;
   }
   img{
-    width:560px;
+    width:450px;
+    height:295px;
     cursor:pointer;
+  }
+  
+  iframe{
+      float:left;
   }
 }
 

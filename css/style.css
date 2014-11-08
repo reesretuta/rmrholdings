@@ -168,8 +168,11 @@ p {
     font-size: 19px;
     letter-spacing: 0.1em; }
   #video img {
-    width: 560px;
+    width: 450px;
+    height: 295px;
     cursor: pointer; }
+  #video iframe {
+    float: left; }
 
 #wrap {
   width: 960px;
