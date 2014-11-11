@@ -230,6 +230,10 @@ p{
 
 #video{
   margin:18px 0 0 22px;
+  
+  @include breakpoint('mobile'){
+      display:none;
+  }
   div{
     font-family: "Times New Roman",Georgia,Serif !important;
     font-weight: normal;
@@ -242,9 +246,7 @@ p{
     cursor:pointer;
   }
   
-  iframe{
-      float:left;
-  }
+
 }
 
 
