@@ -7,7 +7,7 @@
 
       <?php if (have_posts()) : while (have_posts()) : the_post();?>
 
-        <? //retain content for the loop that will supercede it.
+        <?php //retain content for the loop that will supercede it.
 
         $the_content = get_the_content(); 
         $the_content = apply_filters('the_content', $the_content);
