@@ -41,7 +41,7 @@
               transformOrigin:"50% 50% 0",
               // ease: 'easeInQuart',
               ease: 'easeInCubic',
-              onComplete: function(){
+              onStart: function(){
                 $("body").addClass('showContent home');
               }
             })

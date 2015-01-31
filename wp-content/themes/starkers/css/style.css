@@ -9,9 +9,9 @@ img.vegas-background2, #logo0 {
   background: url("../images/bg2.png") #fff center center no-repeat !important;
   position: absolute;
   top: 0;
-  right: 0;
   left: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
   background: #fff;
   overflow: hidden;
   z-index: 999999999;
