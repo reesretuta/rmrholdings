@@ -10,8 +10,6 @@
         <? //retain content for the loop that will supercede it.
 
         $the_content = get_the_content(); 
-        // $the_content = apply_filters('the_content', $the_content);
-        // $the_content = str_replace(']]>', ']]&gt;', $the_content);
         $the_excerpt = $post->post_excerpt;
         
     
