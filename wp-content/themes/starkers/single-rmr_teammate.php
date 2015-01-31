@@ -10,7 +10,6 @@
         <? //retain content for the loop that will supercede it.
 
         $the_content = get_the_content(); 
-        $the_excerpt = $post->post_excerpt;
         
     
  
