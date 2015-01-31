@@ -18,7 +18,7 @@
 
         
         
-        <h1><?php the_title(); ?></h1>
+        <h1><?php echo the_title(); ?></h1>
 
         <div class="bio">
             <?php
@@ -28,8 +28,8 @@
             endif;
             ?>
         
-        					<h3><?= $the_excerpt; ?></h3>
-                  <p><?= $the_content; ?></p>
+        					<h3><?php echo $the_excerpt; ?></h3>
+                  <p><?php echo $the_content; ?></p>
         </div>
         
 	
