@@ -7,18 +7,17 @@
 
       <?php if (have_posts()) : while (have_posts()) : the_post();?>
 
-        <? //retain content for the loop that will supercede it.
+        <?php //retain content for the loop that will supercede it.
 
         $the_content = get_the_content(); 
+        $the_excerpt = $post->post_excerpt;
         
-    
- 
         
         ?>
 
         
         
-        <h1><?php echo the_title(); ?></h1>
+        <h1><?php the_title(); ?></h1>
 
         <div class="bio">
             <?php
@@ -28,8 +27,8 @@
             endif;
             ?>
         
-        					<h3><?php echo $the_excerpt; ?></h3>
-                  <p><?php echo $the_content; ?></p>
+        					<h3><?= $the_excerpt; ?></h3>
+                  <p><?= $the_content; ?></p>
         </div>
         
 	
