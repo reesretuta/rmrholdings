@@ -169,11 +169,21 @@ p {
     font-weight: normal;
     font-size: 19px;
     letter-spacing: 0.1em; }
-  #video img {
-    width: 450px;
-    height: 295px;
-    cursor: pointer;
-    vertical-align: top; }
+  #video h1 {
+    text-align: center;
+    border: none !important;
+    margin-top: 20px;
+    padding-bottom: 0 !important; }
+  #video #videos {
+    margin: 10px 0 10px 0; }
+    #video #videos .video {
+      float: left;
+      margin-right: 10px; }
+      #video #videos .video img {
+        width: 450px;
+        height: 286px;
+        cursor: pointer;
+        vertical-align: top; }
 
 #wrap {
   width: 960px;

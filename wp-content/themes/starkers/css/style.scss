@@ -244,13 +244,27 @@ p{
     font-size: 19px;
     letter-spacing: 0.1em;
   }
-  img{
-    width:450px;
-    height:295px;
-    cursor:pointer;
-    vertical-align:top;
+    
+  h1{
+      text-align:center;
+      border:none !important;
+      margin-top:20px;
+      padding-bottom:0 !important;
   }
   
+  #videos{
+      margin: 10px 0 10px 0;
+      .video{
+          float:left;
+          margin-right:10px;
+          img{
+            width:450px;
+            height:286px;
+            cursor:pointer;
+            vertical-align:top;
+          }
+      }
+  }
 
 }
 

@@ -63,7 +63,7 @@
     <img src="<?= bloginfo('template_url') ?>/images/homepage.jpg" />
 </div>
 <div id="video">
-    <div>IN THE NEWS:</div>
+    <h1>&equiv; IN THE NEWS &equiv;</h1>
     <!-- <iframe src="http://player.theplatform.com/p/gZWlPC/vcps_inline?byGuid=3000327473&size=440_290" width="450" height="298" type="application/x-shockwave-flash" allowFullScreen="true" bgcolor="#131313" style="margin-right:15px; height: 316px; overflow:hidden"></iframe>
 
 
@@ -77,8 +77,19 @@
 
     <iframe src="http://player.theplatform.com/p/gZWlPC/vcps_inline?byGuid=3000338531&size=440_285" width="450" height="285px" type="application/x-shockwave-flash" allowFullScreen="true" bgcolor="#131313" style="margin-right:15px; height: 285px; overflow:hidden"></iframe> -->
         
+    <div id="videos" class="clearfix">
+        <div class="video">
+            <iframe id="youtube" width="450" height="285" src="https://www.youtube.com/embed/YeyX8dYbubU?autoplay=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <a href="http://www.bloomberg.com/news/videos/2015-02-04/within-opec-it-s-sunni-versus-shiite-brownstein" target="_blank"><img src="<?= bloginfo('template_url') ?>/images/video-thumb-1.png" alt="Video Thumb 1"></a>
+        </div>
         
-    <iframe id="youtube" width="450" height="285" src="https://www.youtube.com/embed/YeyX8dYbubU?autoplay=0" frameborder="0" allowfullscreen style="margin-top:10px;"></iframe>
+    </div>
+    
+    
+    
+    
     <br/><br/>
     
     
