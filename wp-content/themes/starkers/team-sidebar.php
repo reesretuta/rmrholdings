@@ -6,6 +6,7 @@
           <li><a href="/team/dr-barry-munitz">Dr. Barry Munitz</a></li>
           <li><a href="/team/isaac-morgan">Isaac Morgan</a></li>
           <li><a href="/team/jonathan-ma">Jonathan Ma</a></li>
+          <li><a href="/team/michael-okada">Michael Okada</a></li>
       </ul>
       <h3>ADVISORS</h3>
       <ul>
