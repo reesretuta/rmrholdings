@@ -3,3 +3,5 @@ config.codekit
 /dandelion.yml
 
 /config.codekit
+
+wp-config.php
